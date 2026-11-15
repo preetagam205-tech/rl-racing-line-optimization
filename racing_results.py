@@ -1,7 +1,7 @@
 
 """Final-results viewer for the evolutionary racing simulator.
 
-Reads checkpoints saved by racing_persistence.py.
+Reads checkpoints saved by src/racing_persistence.py.
 This program replays trained controllers; it does not train them.
 """
 
@@ -11,7 +11,7 @@ import math
 from pathlib import Path
 
 import numpy as np
-from population_evolution_multitrack import Track, Car, DT
+from src.population_evolution_multitrack import Track, Car, DT
 
 
 FAMILY_ORDER = [
@@ -795,7 +795,7 @@ def main():
 
     parser.add_argument(
         "--checkpoints",
-        default="racing_checkpoints",
+        default=str(Path(__file__).resolve().parent / "racing_checkpoints"),
     )
 
     args = parser.parse_args()

@@ -1,7 +1,7 @@
 
 """Multi-car racing showcase with manual map selection.
 
-Requires population_evolution_multitrack.py in the same folder.
+Uses the standalone population simulator in src.population_evolution_multitrack.
 
 N = next map, P = previous map.
 Every map trains separately and keeps the same track layout.
@@ -14,13 +14,15 @@ from pathlib import Path
 
 import numpy as np
 
-from population_evolution_multitrack import (
+from src.population_evolution_multitrack import (
     Car,
     Evolution,
     TrackBank,
 )
 
-from racing_persistence import save_map, load_map, save_all
+from src.racing_persistence import save_map, load_map, save_all
+
+ROOT = Path(__file__).resolve().parent
 
 
 class MapTrainer(Evolution):
@@ -67,7 +69,7 @@ class MapTrainer(Evolution):
                 break
 
 
-def write_results(states, path="racing_final_results.json"):
+def write_results(states, path=None):
     result = {
         "algorithm": "Evolutionary controllers, not PPO",
         "maps": {},
@@ -93,8 +95,10 @@ def write_results(states, path="racing_final_results.json"):
             "seed": model.seed,
         }
 
-    Path(path).write_text(json.dumps(result, indent=2))
-    return path
+    path = Path(path) if path is not None else ROOT / "assets" / "racing_final_results.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(result, indent=2), encoding="utf-8")
+    return str(path)
 
 
 def run_check(states, generations):

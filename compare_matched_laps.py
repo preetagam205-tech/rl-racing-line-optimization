@@ -3,7 +3,7 @@ import csv
 from pathlib import Path
 from statistics import mean
 
-path = Path(
+path = Path(__file__).resolve().parent / (
     "baseline_comparison_tuned/baseline_comparison_runs.csv"
 )
 

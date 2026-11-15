@@ -418,7 +418,7 @@ class TrackBank:
         if source in ("auto", "project") and not self.exported:
             roots = (
                 Path.cwd(),
-                Path(__file__).resolve().parent,
+                Path(__file__).resolve().parents[1],
             )
 
             for root in roots:
@@ -1038,13 +1038,14 @@ class Evolution:
             "best_lap_seconds": self.track_laps,
         }
 
-        path = "racing_multitrack_champion.json"
+        path = Path(__file__).resolve().parents[1] / "assets" / "racing_multitrack_champion.json"
+        path.parent.mkdir(parents=True, exist_ok=True)
 
         Path(path).write_text(
             json.dumps(data, indent=2)
         )
 
-        return path
+        return str(path)
 
 
 def headless(bank, population, seed,

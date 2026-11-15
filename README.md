@@ -24,7 +24,8 @@ Broad Domain PPO, tuned Pure Pursuit, and the evolved geometric controller drive
 | `src/simulator.py`, `src/vehicle.py` | Fixed-step vehicle simulation, grip-limited steering, checkpoints, and lap validation |
 | `src/track_geometry.py`, `src/track_factory.py` | Track geometry and ellipse, wavy, complex, spline, and hard-spline circuits |
 | `train_ppo.py`, `train_visual_demo.py` | PPO training and saved learning milestones |
-| `benchmark_ppo.py`, `benchmark_heldout.py` | PPO learning and procedural-track evaluation |
+| `benchmark_ppo.py` | PPO learning snapshots evaluated across procedural track families |
+| [Archived experiments](docs/archive/README.md), including [benchmark_heldout.py](docs/archive/benchmark_heldout.py) | Historical evaluation and diagnostic sources |
 | `benchmark_centerline.py`, `benchmark_centerline_tuned.py` | Original and tuned Pure Pursuit comparisons |
 | `evolve_shared_physics.py` | Evolution of a nine-parameter geometric controller in the PPO simulator |
 | `compare_matched_laps.py`, `analyze_racing_lines.py` | Successful-lap matching, trajectory analysis, and telemetry plots |
@@ -43,7 +44,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
-python scripts/verify_project.py
+python src/verify_project.py
 ```
 
 On Windows, activate the environment with `.venv\Scripts\activate`. Interactive viewers require a desktop display and Pygame; benchmark CSVs and generated figures can be produced without opening a window.
@@ -58,7 +59,7 @@ Replay the real PPO learning snapshots:
 python ppo_learning_replay.py
 ```
 
-Use **N/P** or **1–5** to change maps, **Space** to pause, **F** for faster playback, **Tab** to switch between all policies and one policy, **Up/Down** to select a policy, and **R** to restart. Playback does not update model weights.
+Use **N/P** or **1–5** to change maps, **Space** to pause, **F** for faster playback, **Tab** to switch between all policies and one policy, **Up/Down** to select a policy, and **R** to restart. Playback does not update model weights. Its saved summary is `assets/ppo_learning_replay_results.json`.
 
 Watch evolutionary learning across maps:
 
@@ -67,7 +68,7 @@ python racing_showcase.py --cars 120 --seed 12
 python racing_results.py --checkpoints racing_checkpoints
 ```
 
-The showcase restores saved populations and saves progress after each generation. **N/P** changes the selected map, **Space** pauses, **F** changes speed, **Tab** switches to champion replay, and **S** saves. Only the selected map trains. This showcase uses its own vehicle dynamics; its generations and lap times are separate from the scientific comparison in `RacingEnv`.
+The showcase restores saved populations and saves progress after each generation. **N/P** changes the selected map, **Space** pauses, **F** changes speed, **Tab** switches to champion replay, and **S** saves. Only the selected map trains. Population checkpoints stay in `racing_checkpoints/`, and its summary is `assets/racing_final_results.json`. This showcase uses its own vehicle dynamics; its generations and lap times are separate from the scientific comparison in `RacingEnv`.
 
 ## Methodology
 
@@ -126,6 +127,8 @@ python benchmark_ppo.py --trials 5
 python generate_assets.py
 ```
 
+The PPO learning-snapshot CSVs are saved in `docs/benchmarks/`. The optional original baseline command, `python benchmark_centerline.py --trials 20 --trial-start 10000`, saves its results in `docs/benchmarks/baseline_comparison/`. The main tuned and evolutionary results remain in their top-level directories shown below.
+
 For a quick evaluation, use `--trials 1` with the benchmark commands. This produces a smoke-test result, not the published 20-circuit summary. `python generate_assets.py --refresh-rollouts` reruns the example trajectories used in the visual assets.
 
 ## Train your own controllers
@@ -182,7 +185,7 @@ rl-racing-line-optimization/
 └── assets/                      # Figures, GIFs, and provenance
 ```
 
-Additional evaluation and diagnostic scripts preserve the project's experimental development.
+`src/` also contains the showcase helpers and `verify_project.py`. Additional benchmark data lives in `docs/benchmarks/`. Older evaluation scripts, diagnostics, plots, and datasets are preserved under [docs/archive/](docs/archive/README.md), retaining their original relative paths within that directory. Those files are historical source and have not been adapted to run from the archive location. The [original published revision](https://github.com/preetagam205-tech/rl-racing-line-optimization/tree/ef3f0718cc3adfc572a25a6aa839e9ce3281819c) preserves their original layout.
 
 ## Limitations and next experiments
 

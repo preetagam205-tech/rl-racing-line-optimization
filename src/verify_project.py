@@ -1,6 +1,6 @@
 """Fast, read-only checks for the published simulator, checkpoints and results.
 
-Run from any directory with ``python /path/to/scripts/verify_project.py``.
+Run from any directory with ``python /path/to/src/verify_project.py``.
 This does not train agents, launch a window, or overwrite benchmark artifacts.
 """
 

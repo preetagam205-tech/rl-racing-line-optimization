@@ -25,7 +25,7 @@ from analyze_racing_lines import (
 from src.racing_env import RacingEnv
 
 ROOT = Path(__file__).resolve().parent
-OUT = ROOT / "baseline_comparison"
+OUT = ROOT / "docs" / "benchmarks" / "baseline_comparison"
 
 MODEL_PATHS = {
     "Broad Domain PPO":

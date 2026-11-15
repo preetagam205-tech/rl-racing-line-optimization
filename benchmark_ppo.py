@@ -346,7 +346,9 @@ def main():
         "mean_abs_lateral_error",
     ]
 
-    raw_path = ROOT / "ppo_benchmark_runs.csv"
+    output_dir = ROOT / "docs" / "benchmarks"
+    output_dir.mkdir(parents=True, exist_ok=True)
+    raw_path = output_dir / "ppo_benchmark_runs.csv"
 
     write_csv(
         raw_path,
@@ -425,7 +427,7 @@ def main():
             })
 
     summary_path = (
-        ROOT / "ppo_benchmark_summary.csv"
+        output_dir / "ppo_benchmark_summary.csv"
     )
 
     write_csv(

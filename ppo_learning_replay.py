@@ -135,7 +135,8 @@ def save_results(all_replays: dict):
             }
             for r in replays
         ]
-    path = ROOT / "ppo_learning_replay_results.json"
+    path = ROOT / "assets" / "ppo_learning_replay_results.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, indent=2), encoding="utf-8")
     print(f"Saved {path}")
     return path

@@ -7,10 +7,10 @@ import re
 from pathlib import Path
 
 import numpy as np
-from population_evolution_multitrack import Car, Track
+from src.population_evolution_multitrack import Car, Track
 
 CHECKPOINTS = (
-    Path(__file__).resolve().parent / "racing_checkpoints"
+    Path(__file__).resolve().parents[1] / "racing_checkpoints"
 )
 
 

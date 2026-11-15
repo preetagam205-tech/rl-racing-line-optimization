@@ -13,7 +13,9 @@ This report describes the checked-in experimental data. The central comparison u
 | [`evolution_shared_physics/best_controller.json`](../evolution_shared_physics/best_controller.json) | Saved nine-parameter evolutionary champion |
 | [`evolution_shared_physics/training_history.csv`](../evolution_shared_physics/training_history.csv) | Fitness across 20 generations |
 | [`racing_line_analysis/trajectory_metrics.csv`](../racing_line_analysis/trajectory_metrics.csv) | PPO trajectory measurements |
-| [`ppo_benchmark_runs.csv`](../ppo_benchmark_runs.csv) | Learning-snapshot evaluation on five circuits per family |
+| [`docs/benchmarks/ppo_benchmark_runs.csv`](benchmarks/ppo_benchmark_runs.csv) | Learning-snapshot evaluation on five circuits per family |
+| [`docs/benchmarks/ppo_benchmark_summary.csv`](benchmarks/ppo_benchmark_summary.csv) | Learning-snapshot aggregates |
+| [`docs/benchmarks/baseline_comparison/`](benchmarks/baseline_comparison/) | Earlier untuned Pure Pursuit comparison, excluded from the tables below |
 | [`assets/README.md`](../assets/README.md) | Visual sources and regeneration instructions |
 
 The two comparison CSVs repeat the same 200 PPO runs. They represent **400 distinct controller–circuit evaluations**, not 600 independent observations.
@@ -125,13 +127,14 @@ The final visual policy succeeds on ellipses but fails to complete the sampled c
 
 Mean absolute lateral error measures centerline deviation, not lap quality. Steering change measures the absolute difference between consecutive normalized steering commands at the fixed simulation timestep; it is not jerk or physical steering acceleration. Failed-run telemetry can cover a shorter portion of a circuit than successful-run telemetry, which limits aggregate comparisons of those measures.
 
-`racing_showcase.py` and `racing_results.py` use the separate simulator in `population_evolution_multitrack.py`, including a different timestep and wheelbase. Their persistent per-map populations are useful for watching selection and replaying champions. Their lap times must not be combined with the shared-physics benchmark.
+`racing_showcase.py` and `racing_results.py` use the separate simulator in `src/population_evolution_multitrack.py`, including a different timestep and wheelbase. Their persistent per-map populations in `racing_checkpoints/` are useful for watching selection and replaying champions. Their lap times must not be combined with the shared-physics benchmark. Interactive summaries are saved to `assets/racing_final_results.json` and `assets/ppo_learning_replay_results.json`.
 
 ## Reproduction commands
 
 Install dependencies and use the bundled checkpoints as described in the [README](../README.md). Run from the repository root:
 
 ```bash
+python src/verify_project.py
 python benchmark_centerline_tuned.py --trials 20 --trial-start 10000
 python evolve_shared_physics.py evaluate --trials 20 --trial-start 10000
 python compare_matched_laps.py
@@ -140,7 +143,9 @@ python benchmark_ppo.py --trials 5
 python generate_assets.py --refresh-rollouts
 ```
 
-Evaluation scripts overwrite their result files. The visual generator reuses frozen rollout data unless `--refresh-rollouts` is requested. Archive the original outputs before running a different trial count or replacing checkpoints.
+Evaluation scripts overwrite their result files. `benchmark_ppo.py` writes the learning-snapshot CSVs to `docs/benchmarks/`; the earlier `benchmark_centerline.py` writes to `docs/benchmarks/baseline_comparison/`. The visual generator reuses frozen rollout data unless `--refresh-rollouts` is requested. Archive the original outputs before running a different trial count or replacing checkpoints.
+
+Older experimental scripts and datasets are preserved in [archive/](archive/README.md) as historical source. They have not been adapted to execute from that location. Use the [original published revision](https://github.com/preetagam205-tech/rl-racing-line-optimization/tree/ef3f0718cc3adfc572a25a6aa839e9ce3281819c) to inspect them in their original layout; existing checkpoint and provenance limitations still apply.
 
 To run a new evolutionary experiment with the saved champion's recorded seed and training case count:
 
