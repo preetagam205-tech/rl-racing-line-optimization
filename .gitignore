@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/
+.env
+.env.*
+
+# Model weights and large training artifacts
+models/
+*.pt
+*.pth
+logs/
+tensorboard/
+checkpoints/
+racing_checkpoints/
+
+# Generated results (publish curated samples explicitly)
+outputs/
+racing_line_analysis/
+baseline_comparison/
+baseline_comparison_tuned/
+evolution_shared_physics/
+*.mov
+*.avi
+
+# Add only curated, compressed videos intentionally
+*.mp4
