@@ -1,0 +1,22 @@
+{
+  "controller": "evolutionary_tuned_geometric_pure_pursuit",
+  "parameters": {
+    "lookahead_base": 11.653822288237173,
+    "lookahead_per_speed": 0.6488022575566355,
+    "steer_gain": 1.4200634240170555,
+    "corner_accel": 11.529024344162824,
+    "min_target_speed": 7.971941709979607,
+    "max_target_speed": 19.981704933752578,
+    "throttle_gain": 0.365631544557801,
+    "curvature_horizon": 10.0,
+    "outward_offset": -1.1055048513196897
+  },
+  "best_training_fitness": 513.725,
+  "seed": 2026,
+  "training_trials_per_family": 2,
+  "training_trial_ids": [
+    200,
+    201
+  ],
+  "note": "Geometry-aware policy; PPO observation inputs differ."
+}

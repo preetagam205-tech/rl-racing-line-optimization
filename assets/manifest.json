@@ -1,0 +1,19 @@
+{
+  "generator": "python generate_assets.py --refresh-rollouts",
+  "input_sha256": {
+    "baseline_comparison_tuned/baseline_comparison_runs.csv": "c25e10ac102ef1b4b7499d495617fbbc5f5cb4c69a0acb33713208d34efe15f8",
+    "evolution_shared_physics/comparison_runs.csv": "1cb4b7341ba7c7c1b8b095541fcfffb9dea6e033c4cf9647d293f1980197218a",
+    "evolution_shared_physics/training_history.csv": "57f65bd9acead7f0bdd8f02c026ed7adf4996d67a0ac2eef5ad58d7ea15a6ded",
+    "assets/rollouts.npz": "a317229f967f493c61384357bcc85b0f2cfbae8c878df74f71b01fff0b632ec2",
+    "assets/rollouts.json": "e0c19d838a73d0bd6464abf2edc3fbea832ad5e88267ace2562bb454a17ef582",
+    "generate_assets.py": "b7ae0cdcecbbccf2e0082fe53af54b4967e64a8e14cb3e438623acbf845d4557"
+  },
+  "note": "Static statistics are from archived CSVs. Driving visuals use fresh deterministic cached rollouts, not archived telemetry.",
+  "matched_completed_cases_per_family": {
+    "ellipse": 7,
+    "wavy": 12,
+    "complex": 18,
+    "spline": 14,
+    "hard_spline": 6
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "description": "Deterministic PPO checkpoint replay; one run per map/checkpoint",
+  "track_seed": 20261115,
+  "results": {
+    "ellipse": [
+      {
+        "checkpoint_steps": 0,
+        "observation_size": 10,
+        "progress_percent": 0.006,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "TIME LIMIT",
+        "simulated_seconds": 60.05
+      },
+      {
+        "checkpoint_steps": 25000,
+        "observation_size": 10,
+        "progress_percent": 18.604,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "OFF TRACK",
+        "simulated_seconds": 4.55
+      },
+      {
+        "checkpoint_steps": 50000,
+        "observation_size": 10,
+        "progress_percent": 18.472,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "OFF TRACK",
+        "simulated_seconds": 4.4
+      },
+      {
+        "checkpoint_steps": 100000,
+        "observation_size": 10,
+        "progress_percent": 52.917,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "OFF TRACK",
+        "simulated_seconds": 9.1
+      },
+      {
+        "checkpoint_steps": 250000,
+        "observation_size": 10,
+        "progress_percent": 100.0,
+        "lap_completed": true,
+        "lap_time_seconds": 13.850000000000062,
+        "status": "LAP COMPLETE",
+        "simulated_seconds": 13.85
+      },
+      {
+        "checkpoint_steps": 500000,
+        "observation_size": 10,
+        "progress_percent": 100.0,
+        "lap_completed": true,
+        "lap_time_seconds": 13.150000000000052,
+        "status": "LAP COMPLETE",
+        "simulated_seconds": 13.15
+      }
+    ],
+    "wavy": [
+      {
+        "checkpoint_steps": 0,
+        "observation_size": 10,
+        "progress_percent": 0.007,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "TIME LIMIT",
+        "simulated_seconds": 60.05
+      },
+      {
+        "checkpoint_steps": 25000,
+        "observation_size": 10,
+        "progress_percent": 16.508,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "OFF TRACK",
+        "simulated_seconds": 5.75
+      },
+      {
+        "checkpoint_steps": 50000,
+        "observation_size": 10,
+        "progress_percent": 16.772,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "OFF TRACK",
+        "simulated_seconds": 5.4
+      },
+      {
+        "checkpoint_steps": 100000,
+        "observation_size": 10,
+        "progress_percent": 63.946,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "OFF TRACK",
+        "simulated_seconds": 14.25
+      },
+      {
+        "checkpoint_steps": 250000,
+        "observation_size": 10,
+        "progress_percent": 52.154,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "OFF TRACK",
+        "simulated_seconds": 9.7
+      },
+      {
+        "checkpoint_steps": 500000,
+        "observation_size": 10,
+        "progress_percent": 41.73,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "OFF TRACK",
+        "simulated_seconds": 7.2
+      }
+    ],
+    "complex": [
+      {
+        "checkpoint_steps": 0,
+        "observation_size": 10,
+        "progress_percent": 0.002,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "DRIVING",
+        "simulated_seconds": 19.6
+      },
+      {
+        "checkpoint_steps": 25000,
+        "observation_size": 10,
+        "progress_percent": 6.307,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "OFF TRACK",
+        "simulated_seconds": 2.55
+      },
+      {
+        "checkpoint_steps": 50000,
+        "observation_size": 10,
+        "progress_percent": 6.508,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "OFF TRACK",
+        "simulated_seconds": 2.55
+      },
+      {
+        "checkpoint_steps": 100000,
+        "observation_size": 10,
+        "progress_percent": 54.617,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "OFF TRACK",
+        "simulated_seconds": 10.45
+      },
+      {
+        "checkpoint_steps": 250000,
+        "observation_size": 10,
+        "progress_percent": 65.601,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "OFF TRACK",
+        "simulated_seconds": 12.15
+      },
+      {
+        "checkpoint_steps": 500000,
+        "observation_size": 10,
+        "progress_percent": 59.322,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "OFF TRACK",
+        "simulated_seconds": 9.35
+      }
+    ],
+    "spline": [
+      {
+        "checkpoint_steps": 0,
+        "observation_size": 10,
+        "progress_percent": 0.002,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "DRIVING",
+        "simulated_seconds": 28.0
+      },
+      {
+        "checkpoint_steps": 25000,
+        "observation_size": 10,
+        "progress_percent": 10.854,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "OFF TRACK",
+        "simulated_seconds": 3.6
+      },
+      {
+        "checkpoint_steps": 50000,
+        "observation_size": 10,
+        "progress_percent": 11.409,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "OFF TRACK",
+        "simulated_seconds": 3.6
+      },
+      {
+        "checkpoint_steps": 100000,
+        "observation_size": 10,
+        "progress_percent": 60.522,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "OFF TRACK",
+        "simulated_seconds": 13.7
+      },
+      {
+        "checkpoint_steps": 250000,
+        "observation_size": 10,
+        "progress_percent": 67.789,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "OFF TRACK",
+        "simulated_seconds": 14.7
+      },
+      {
+        "checkpoint_steps": 500000,
+        "observation_size": 10,
+        "progress_percent": 47.988,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "OFF TRACK",
+        "simulated_seconds": 8.45
+      }
+    ],
+    "hard_spline": [
+      {
+        "checkpoint_steps": 0,
+        "observation_size": 10,
+        "progress_percent": 0.003,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "DRIVING",
+        "simulated_seconds": 23.6
+      },
+      {
+        "checkpoint_steps": 25000,
+        "observation_size": 10,
+        "progress_percent": 7.978,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "OFF TRACK",
+        "simulated_seconds": 3.15
+      },
+      {
+        "checkpoint_steps": 50000,
+        "observation_size": 10,
+        "progress_percent": 8.37,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "OFF TRACK",
+        "simulated_seconds": 3.05
+      },
+      {
+        "checkpoint_steps": 100000,
+        "observation_size": 10,
+        "progress_percent": 68.097,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "OFF TRACK",
+        "simulated_seconds": 16.1
+      },
+      {
+        "checkpoint_steps": 250000,
+        "observation_size": 10,
+        "progress_percent": 75.242,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "OFF TRACK",
+        "simulated_seconds": 14.95
+      },
+      {
+        "checkpoint_steps": 500000,
+        "observation_size": 10,
+        "progress_percent": 32.29,
+        "lap_completed": false,
+        "lap_time_seconds": null,
+        "status": "OFF TRACK",
+        "simulated_seconds": 6.5
+      }
+    ]
+  }
+}

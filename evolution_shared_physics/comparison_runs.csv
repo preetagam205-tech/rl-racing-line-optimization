@@ -1,0 +1,301 @@
+model,family,trial,completed,progress_percent,lap_seconds,elapsed_seconds,distance_driven,mean_abs_lateral_error,mean_steering_change,status
+Evolved geometric,ellipse,10000,0,60.849,,10.2,133.144,1.387,0.01091,off_track
+Broad Domain PPO,ellipse,10000,1,100.0,15.75,15.75,223.425,1.898,0.01457,lap
+Hard Five Family PPO,ellipse,10000,1,100.0,17.2,17.2,236.259,1.38,0.01202,lap
+Evolved geometric,ellipse,10001,0,64.646,,9.05,109.941,1.519,0.01185,off_track
+Broad Domain PPO,ellipse,10001,1,100.0,13.35,13.35,174.863,1.418,0.01668,lap
+Hard Five Family PPO,ellipse,10001,1,100.0,14.3,14.3,187.61,1.345,0.01395,lap
+Evolved geometric,ellipse,10002,1,100.0,15.6,15.6,229.441,1.845,0.00686,lap
+Broad Domain PPO,ellipse,10002,1,100.0,15.85,15.85,232.528,2.276,0.01393,lap
+Hard Five Family PPO,ellipse,10002,1,100.0,17.65,17.65,248.262,1.243,0.01153,lap
+Evolved geometric,ellipse,10003,0,58.144,,10.45,139.579,1.282,0.01095,off_track
+Broad Domain PPO,ellipse,10003,1,100.0,16.8,16.8,244.171,2.052,0.01408,lap
+Hard Five Family PPO,ellipse,10003,1,100.0,18.4,18.4,256.776,1.401,0.01142,lap
+Evolved geometric,ellipse,10004,1,100.0,15.7,15.7,229.417,1.727,0.00834,lap
+Broad Domain PPO,ellipse,10004,1,100.0,16.1,16.1,234.325,2.113,0.01411,lap
+Hard Five Family PPO,ellipse,10004,1,100.0,17.8,17.8,248.742,1.302,0.01152,lap
+Evolved geometric,ellipse,10005,0,60.569,,8.8,114.593,1.556,0.00459,off_track
+Broad Domain PPO,ellipse,10005,1,100.0,13.05,13.05,181.877,2.204,0.01454,lap
+Hard Five Family PPO,ellipse,10005,1,100.0,14.6,14.6,198.487,0.991,0.01241,lap
+Evolved geometric,ellipse,10006,0,68.914,,9.85,127.35,1.704,0.00716,off_track
+Broad Domain PPO,ellipse,10006,1,100.0,13.6,13.6,186.1,1.886,0.01561,lap
+Hard Five Family PPO,ellipse,10006,1,100.0,14.95,14.95,201.507,1.215,0.01326,lap
+Evolved geometric,ellipse,10007,0,66.909,,9.35,118.641,1.657,0.00683,off_track
+Broad Domain PPO,ellipse,10007,1,100.0,13.15,13.15,177.594,1.868,0.01546,lap
+Hard Five Family PPO,ellipse,10007,1,100.0,14.45,14.45,192.997,1.167,0.01368,lap
+Evolved geometric,ellipse,10008,0,56.982,,10.25,136.937,1.249,0.01152,off_track
+Broad Domain PPO,ellipse,10008,1,100.0,16.8,16.8,243.847,2.026,0.0141,lap
+Hard Five Family PPO,ellipse,10008,1,100.0,18.4,18.4,256.344,1.42,0.01145,lap
+Evolved geometric,ellipse,10009,1,100.0,14.25,14.25,201.903,1.998,0.00783,lap
+Broad Domain PPO,ellipse,10009,1,100.0,14.6,14.6,205.345,1.973,0.01499,lap
+Hard Five Family PPO,ellipse,10009,1,100.0,16.1,16.1,220.468,1.262,0.01228,lap
+Evolved geometric,ellipse,10010,1,100.0,16.05,16.05,239.286,1.828,0.00646,lap
+Broad Domain PPO,ellipse,10010,1,100.0,16.25,16.25,241.94,2.384,0.0133,lap
+Hard Five Family PPO,ellipse,10010,1,100.0,18.15,18.15,257.771,1.233,0.01142,lap
+Evolved geometric,ellipse,10011,0,58.83,,10.85,146.521,1.293,0.01036,off_track
+Broad Domain PPO,ellipse,10011,1,100.0,17.25,17.25,253.645,2.125,0.0136,lap
+Hard Five Family PPO,ellipse,10011,1,100.0,18.9,18.9,266.048,1.389,0.01113,lap
+Evolved geometric,ellipse,10012,0,56.353,,10.5,142.331,1.216,0.0112,off_track
+Broad Domain PPO,ellipse,10012,1,100.0,17.45,17.45,256.134,2.103,0.01379,lap
+Hard Five Family PPO,ellipse,10012,1,100.0,19.1,19.1,268.449,1.424,0.01113,lap
+Evolved geometric,ellipse,10013,1,100.0,14.55,14.55,208.344,1.935,0.0077,lap
+Broad Domain PPO,ellipse,10013,1,100.0,14.95,14.95,212.431,2.039,0.01458,lap
+Hard Five Family PPO,ellipse,10013,1,100.0,16.5,16.5,227.47,1.263,0.0121,lap
+Evolved geometric,ellipse,10014,0,56.242,,9.55,125.15,1.266,0.01214,off_track
+Broad Domain PPO,ellipse,10014,1,100.0,15.95,15.95,225.292,1.842,0.01517,lap
+Hard Five Family PPO,ellipse,10014,1,100.0,17.35,17.35,237.359,1.456,0.01206,lap
+Evolved geometric,ellipse,10015,0,68.915,,9.15,111.115,1.631,0.01088,off_track
+Broad Domain PPO,ellipse,10015,1,100.0,12.8,12.8,165.167,1.34,0.01715,lap
+Hard Five Family PPO,ellipse,10015,1,100.0,13.75,13.75,178.768,1.304,0.0143,lap
+Evolved geometric,ellipse,10016,1,100.0,15.75,15.75,231.687,1.75,0.00714,lap
+Broad Domain PPO,ellipse,10016,1,100.0,16.05,16.05,235.851,2.258,0.01405,lap
+Hard Five Family PPO,ellipse,10016,1,100.0,17.85,17.85,251.196,1.261,0.01149,lap
+Evolved geometric,ellipse,10017,0,57.29,,10.05,132.919,1.265,0.01174,off_track
+Broad Domain PPO,ellipse,10017,1,100.0,16.4,16.4,235.68,1.97,0.01432,lap
+Hard Five Family PPO,ellipse,10017,1,100.0,17.95,17.95,248.379,1.417,0.01173,lap
+Evolved geometric,ellipse,10018,1,100.0,16.1,16.1,238.164,1.677,0.00723,lap
+Broad Domain PPO,ellipse,10018,1,100.0,16.4,16.4,242.611,2.283,0.01392,lap
+Hard Five Family PPO,ellipse,10018,1,100.0,18.25,18.25,257.852,1.273,0.01132,lap
+Evolved geometric,ellipse,10019,0,65.18,,10.3,139.235,1.624,0.0056,off_track
+Broad Domain PPO,ellipse,10019,1,100.0,14.7,14.7,212.613,2.3,0.01381,lap
+Hard Five Family PPO,ellipse,10019,1,100.0,16.45,16.45,229.581,1.181,0.01209,lap
+Evolved geometric,wavy,10000,0,71.434,,10.0,136.436,1.922,0.00374,off_track
+Broad Domain PPO,wavy,10000,1,100.0,13.5,13.5,189.76,2.277,0.01635,lap
+Hard Five Family PPO,wavy,10000,1,100.0,15.0,15.0,204.079,1.015,0.01084,lap
+Evolved geometric,wavy,10001,1,100.0,15.85,15.85,233.702,1.865,0.00476,lap
+Broad Domain PPO,wavy,10001,1,100.0,16.9,16.9,241.715,1.775,0.01896,lap
+Hard Five Family PPO,wavy,10001,1,100.0,17.55,17.55,250.101,1.339,0.01457,lap
+Evolved geometric,wavy,10002,1,100.0,14.15,14.15,191.815,1.906,0.00661,lap
+Broad Domain PPO,wavy,10002,1,100.0,15.0,15.0,204.549,1.603,0.02174,lap
+Hard Five Family PPO,wavy,10002,0,44.3,,7.7,96.35,1.451,0.0122,off_track
+Evolved geometric,wavy,10003,0,71.359,,12.1,171.878,1.815,0.00469,off_track
+Broad Domain PPO,wavy,10003,1,100.0,17.4,17.4,249.972,1.819,0.0171,lap
+Hard Five Family PPO,wavy,10003,1,100.0,18.65,18.65,259.111,1.521,0.01265,lap
+Evolved geometric,wavy,10004,1,100.0,15.4,15.4,231.361,1.574,0.00368,lap
+Broad Domain PPO,wavy,10004,1,100.0,15.85,15.85,233.107,2.018,0.0192,lap
+Hard Five Family PPO,wavy,10004,1,100.0,16.75,16.75,242.414,1.13,0.01287,lap
+Evolved geometric,wavy,10005,1,100.0,15.0,15.0,221.278,2.639,0.00377,lap
+Broad Domain PPO,wavy,10005,1,100.0,14.7,14.7,208.166,1.961,0.02048,lap
+Hard Five Family PPO,wavy,10005,1,100.0,15.75,15.75,219.946,1.256,0.01332,lap
+Evolved geometric,wavy,10006,1,100.0,13.95,13.95,185.081,1.781,0.00688,lap
+Broad Domain PPO,wavy,10006,1,100.0,14.95,14.95,199.01,1.412,0.02243,lap
+Hard Five Family PPO,wavy,10006,0,44.143,,7.65,94.036,1.591,0.01394,off_track
+Evolved geometric,wavy,10007,1,100.0,15.75,15.75,199.386,2.398,0.0071,lap
+Broad Domain PPO,wavy,10007,1,100.0,16.45,16.45,215.048,1.267,0.02078,lap
+Hard Five Family PPO,wavy,10007,1,100.0,16.4,16.4,218.894,1.71,0.01661,lap
+Evolved geometric,wavy,10008,1,100.0,14.5,14.5,210.464,1.954,0.00353,lap
+Broad Domain PPO,wavy,10008,1,100.0,13.85,13.85,200.17,1.952,0.01593,lap
+Hard Five Family PPO,wavy,10008,1,100.0,14.9,14.9,210.091,0.87,0.01123,lap
+Evolved geometric,wavy,10009,0,61.674,,10.2,145.33,1.789,0.00251,off_track
+Broad Domain PPO,wavy,10009,1,100.0,15.85,15.85,233.487,2.424,0.0157,lap
+Hard Five Family PPO,wavy,10009,1,100.0,17.4,17.4,249.033,0.984,0.01037,lap
+Evolved geometric,wavy,10010,0,80.27,,12.65,189.994,1.914,0.00328,off_track
+Broad Domain PPO,wavy,10010,1,100.0,15.6,15.6,231.031,2.344,0.01947,lap
+Hard Five Family PPO,wavy,10010,1,100.0,16.8,16.8,242.752,0.878,0.00979,lap
+Evolved geometric,wavy,10011,0,76.769,,13.3,203.143,1.744,0.00376,off_track
+Broad Domain PPO,wavy,10011,1,100.0,17.45,17.45,265.96,2.244,0.01837,lap
+Hard Five Family PPO,wavy,10011,1,100.0,18.65,18.65,275.736,1.085,0.01149,lap
+Evolved geometric,wavy,10012,0,81.874,,11.55,158.4,1.724,0.00469,off_track
+Broad Domain PPO,wavy,10012,1,100.0,13.95,13.95,196.453,1.961,0.01879,lap
+Hard Five Family PPO,wavy,10012,1,100.0,15.05,15.05,207.116,1.207,0.01229,lap
+Evolved geometric,wavy,10013,1,100.0,15.1,15.1,200.344,2.514,0.00671,lap
+Broad Domain PPO,wavy,10013,1,100.0,16.25,16.25,214.563,1.386,0.02288,lap
+Hard Five Family PPO,wavy,10013,0,96.034,,16.45,215.241,1.404,0.01465,off_track
+Evolved geometric,wavy,10014,1,100.0,14.75,14.75,205.342,1.835,0.004,lap
+Broad Domain PPO,wavy,10014,1,100.0,15.6,15.6,211.425,1.709,0.02139,lap
+Hard Five Family PPO,wavy,10014,1,100.0,16.35,16.35,220.468,1.421,0.01273,lap
+Evolved geometric,wavy,10015,0,38.016,,7.5,95.509,1.386,0.00421,off_track
+Broad Domain PPO,wavy,10015,1,100.0,17.75,17.75,251.965,1.724,0.01715,lap
+Hard Five Family PPO,wavy,10015,1,100.0,18.25,18.25,258.753,1.292,0.01236,lap
+Evolved geometric,wavy,10016,1,100.0,16.1,16.1,243.512,1.849,0.00478,lap
+Broad Domain PPO,wavy,10016,1,100.0,16.7,16.7,244.65,2.135,0.02018,lap
+Hard Five Family PPO,wavy,10016,1,100.0,17.9,17.9,255.763,1.111,0.0123,lap
+Evolved geometric,wavy,10017,1,100.0,15.95,15.95,241.853,2.36,0.00539,lap
+Broad Domain PPO,wavy,10017,1,100.0,15.2,15.2,232.119,2.22,0.02095,lap
+Hard Five Family PPO,wavy,10017,1,100.0,17.35,17.35,248.726,1.171,0.01207,lap
+Evolved geometric,wavy,10018,1,100.0,15.75,15.75,236.886,1.944,0.00482,lap
+Broad Domain PPO,wavy,10018,1,100.0,16.45,16.45,240.948,2.059,0.01983,lap
+Hard Five Family PPO,wavy,10018,1,100.0,17.4,17.4,250.759,1.202,0.01426,lap
+Evolved geometric,wavy,10019,0,36.332,,7.2,92.569,1.731,0.00386,off_track
+Broad Domain PPO,wavy,10019,1,100.0,18.45,18.45,259.74,1.842,0.01964,lap
+Hard Five Family PPO,wavy,10019,1,100.0,19.1,19.1,266.169,1.283,0.0128,lap
+Evolved geometric,complex,10000,1,100.0,16.55,16.55,226.632,1.89,0.00413,lap
+Broad Domain PPO,complex,10000,1,100.0,16.3,16.3,239.52,2.021,0.02068,lap
+Hard Five Family PPO,complex,10000,0,45.809,,9.2,116.093,1.248,0.01217,off_track
+Evolved geometric,complex,10001,1,100.0,16.45,16.45,223.924,1.902,0.00393,lap
+Broad Domain PPO,complex,10001,1,100.0,15.6,15.6,229.391,2.542,0.02225,lap
+Hard Five Family PPO,complex,10001,0,47.68,,9.3,118.557,0.707,0.0112,off_track
+Evolved geometric,complex,10002,0,58.35,,10.2,138.365,1.936,0.00606,off_track
+Broad Domain PPO,complex,10002,1,100.0,16.45,16.45,239.633,1.961,0.02325,lap
+Hard Five Family PPO,complex,10002,0,95.88,,17.45,243.388,1.166,0.01251,off_track
+Evolved geometric,complex,10003,1,100.0,16.75,16.75,211.022,2.098,0.00691,lap
+Broad Domain PPO,complex,10003,1,100.0,16.65,16.65,225.29,1.702,0.0244,lap
+Hard Five Family PPO,complex,10003,0,98.45,,17.15,231.134,1.472,0.01468,off_track
+Evolved geometric,complex,10004,1,100.0,16.95,16.95,205.429,1.947,0.00617,lap
+Broad Domain PPO,complex,10004,1,100.0,15.6,15.6,217.568,1.983,0.02351,lap
+Hard Five Family PPO,complex,10004,1,100.0,16.05,16.05,223.872,1.814,0.01688,lap
+Evolved geometric,complex,10005,1,100.0,14.95,14.95,202.231,1.778,0.00406,lap
+Broad Domain PPO,complex,10005,1,100.0,15.0,15.0,213.952,1.752,0.0164,lap
+Hard Five Family PPO,complex,10005,1,100.0,15.8,15.8,219.892,1.436,0.01345,lap
+Evolved geometric,complex,10006,1,100.0,15.3,15.3,216.652,1.84,0.00355,lap
+Broad Domain PPO,complex,10006,1,100.0,16.45,16.45,225.98,1.797,0.01993,lap
+Hard Five Family PPO,complex,10006,1,100.0,16.95,16.95,234.307,1.468,0.01479,lap
+Evolved geometric,complex,10007,1,100.0,17.35,17.35,236.501,1.856,0.00537,lap
+Broad Domain PPO,complex,10007,1,100.0,15.7,15.7,244.173,2.012,0.01504,lap
+Hard Five Family PPO,complex,10007,1,100.0,17.15,17.15,252.804,1.346,0.01279,lap
+Evolved geometric,complex,10008,1,100.0,17.6,17.6,220.48,2.042,0.00458,lap
+Broad Domain PPO,complex,10008,1,100.0,16.25,16.25,230.827,2.158,0.02248,lap
+Hard Five Family PPO,complex,10008,0,38.717,,7.95,94.325,1.256,0.01502,off_track
+Evolved geometric,complex,10009,1,100.0,17.7,17.7,222.284,1.971,0.00448,lap
+Broad Domain PPO,complex,10009,1,100.0,15.3,15.3,229.16,1.979,0.0224,lap
+Hard Five Family PPO,complex,10009,0,90.548,,16.1,222.748,1.386,0.01365,off_track
+Evolved geometric,complex,10010,1,100.0,16.0,16.0,233.884,1.687,0.00418,lap
+Broad Domain PPO,complex,10010,1,100.0,16.05,16.05,239.143,2.421,0.01908,lap
+Hard Five Family PPO,complex,10010,1,100.0,17.4,17.4,251.021,1.34,0.01321,lap
+Evolved geometric,complex,10011,0,47.629,,8.45,99.286,1.667,0.00503,off_track
+Broad Domain PPO,complex,10011,1,100.0,15.3,15.3,214.749,1.607,0.02438,lap
+Hard Five Family PPO,complex,10011,1,100.0,16.75,16.75,224.844,1.651,0.01596,lap
+Evolved geometric,complex,10012,1,100.0,18.5,18.5,234.728,2.004,0.00634,lap
+Broad Domain PPO,complex,10012,1,100.0,17.6,17.6,251.683,1.823,0.01877,lap
+Hard Five Family PPO,complex,10012,0,46.525,,9.4,119.979,1.864,0.01487,off_track
+Evolved geometric,complex,10013,1,100.0,16.2,16.2,220.572,1.942,0.00426,lap
+Broad Domain PPO,complex,10013,1,100.0,15.55,15.55,230.272,1.89,0.02004,lap
+Hard Five Family PPO,complex,10013,0,99.846,,16.7,240.081,1.096,0.01177,off_track
+Evolved geometric,complex,10014,1,100.0,15.65,15.65,204.867,2.071,0.00638,lap
+Broad Domain PPO,complex,10014,1,100.0,15.1,15.1,216.071,1.39,0.02122,lap
+Hard Five Family PPO,complex,10014,0,55.267,,9.95,126.095,0.96,0.01201,off_track
+Evolved geometric,complex,10015,1,100.0,16.45,16.45,230.893,1.827,0.00462,lap
+Broad Domain PPO,complex,10015,1,100.0,16.25,16.25,243.534,1.66,0.01993,lap
+Hard Five Family PPO,complex,10015,0,50.733,,10.1,128.998,1.42,0.01152,off_track
+Evolved geometric,complex,10016,1,100.0,16.15,16.15,214.591,1.968,0.00398,lap
+Broad Domain PPO,complex,10016,1,100.0,15.35,15.35,224.506,2.008,0.02286,lap
+Hard Five Family PPO,complex,10016,1,100.0,16.95,16.95,235.222,1.59,0.01528,lap
+Evolved geometric,complex,10017,1,100.0,14.25,14.25,197.084,1.639,0.00363,lap
+Broad Domain PPO,complex,10017,1,100.0,13.8,13.8,203.882,2.034,0.01534,lap
+Hard Five Family PPO,complex,10017,1,100.0,15.3,15.3,213.873,1.249,0.01324,lap
+Evolved geometric,complex,10018,1,100.0,16.0,16.0,240.839,1.655,0.00361,lap
+Broad Domain PPO,complex,10018,1,100.0,16.0,16.0,242.569,2.665,0.02001,lap
+Hard Five Family PPO,complex,10018,1,100.0,17.6,17.6,256.533,1.052,0.01193,lap
+Evolved geometric,complex,10019,1,100.0,15.4,15.4,225.234,1.639,0.00417,lap
+Broad Domain PPO,complex,10019,1,100.0,15.9,15.9,237.818,1.973,0.01299,lap
+Hard Five Family PPO,complex,10019,1,100.0,16.8,16.8,244.267,1.235,0.01325,lap
+Evolved geometric,spline,10000,1,100.0,17.9,17.9,240.107,1.85,0.00431,lap
+Broad Domain PPO,spline,10000,1,100.0,16.55,16.55,247.932,1.838,0.02418,lap
+Hard Five Family PPO,spline,10000,0,72.579,,13.75,187.584,1.004,0.01253,off_track
+Evolved geometric,spline,10001,1,100.0,19.15,19.15,225.577,1.817,0.00544,lap
+Broad Domain PPO,spline,10001,1,100.0,15.75,15.75,235.87,1.745,0.02108,lap
+Hard Five Family PPO,spline,10001,0,40.207,,7.95,101.169,1.617,0.01397,off_track
+Evolved geometric,spline,10002,1,100.0,19.3,19.3,270.545,1.745,0.00361,lap
+Broad Domain PPO,spline,10002,1,100.0,18.45,18.45,280.041,2.21,0.02135,lap
+Hard Five Family PPO,spline,10002,1,100.0,19.4,19.4,284.35,0.87,0.01119,lap
+Evolved geometric,spline,10003,1,100.0,20.05,20.05,243.443,1.854,0.00487,lap
+Broad Domain PPO,spline,10003,0,37.767,,6.85,91.9,1.591,0.02186,off_track
+Hard Five Family PPO,spline,10003,0,45.346,,9.15,116.48,1.97,0.01572,off_track
+Evolved geometric,spline,10004,1,100.0,18.05,18.05,254.873,1.695,0.00385,lap
+Broad Domain PPO,spline,10004,1,100.0,17.45,17.45,262.216,2.128,0.01644,lap
+Hard Five Family PPO,spline,10004,1,100.0,18.6,18.6,271.944,1.098,0.01236,lap
+Evolved geometric,spline,10005,1,100.0,19.3,19.3,234.813,1.779,0.00456,lap
+Broad Domain PPO,spline,10005,0,58.896,,10.55,144.327,1.857,0.01967,off_track
+Hard Five Family PPO,spline,10005,0,56.258,,10.6,142.935,1.219,0.01275,off_track
+Evolved geometric,spline,10006,1,100.0,21.4,21.4,269.111,1.987,0.00474,lap
+Broad Domain PPO,spline,10006,1,100.0,18.2,18.2,281.666,1.835,0.02002,lap
+Hard Five Family PPO,spline,10006,1,100.0,20.1,20.1,288.77,1.442,0.01579,lap
+Evolved geometric,spline,10007,1,100.0,18.95,18.95,263.736,1.704,0.00384,lap
+Broad Domain PPO,spline,10007,1,100.0,17.45,17.45,273.469,2.264,0.01486,lap
+Hard Five Family PPO,spline,10007,1,100.0,19.0,19.0,279.851,1.195,0.01262,lap
+Evolved geometric,spline,10008,1,100.0,16.05,16.05,210.768,1.851,0.00304,lap
+Broad Domain PPO,spline,10008,1,100.0,15.3,15.3,217.399,2.253,0.01783,lap
+Hard Five Family PPO,spline,10008,1,100.0,16.7,16.7,232.196,1.422,0.01325,lap
+Evolved geometric,spline,10009,1,100.0,18.15,18.15,255.192,1.791,0.00264,lap
+Broad Domain PPO,spline,10009,1,100.0,17.2,17.2,262.871,2.08,0.01492,lap
+Hard Five Family PPO,spline,10009,1,100.0,19.0,19.0,275.257,1.381,0.01272,lap
+Evolved geometric,spline,10010,1,100.0,18.65,18.65,242.406,1.674,0.00401,lap
+Broad Domain PPO,spline,10010,1,100.0,15.5,15.5,243.774,2.712,0.02189,lap
+Hard Five Family PPO,spline,10010,0,54.691,,10.75,142.849,0.955,0.01301,off_track
+Evolved geometric,spline,10011,1,100.0,17.95,17.95,240.312,1.775,0.0037,lap
+Broad Domain PPO,spline,10011,1,100.0,16.3,16.3,245.532,2.404,0.02003,lap
+Hard Five Family PPO,spline,10011,0,71.335,,13.3,185.581,1.003,0.01095,off_track
+Evolved geometric,spline,10012,1,100.0,21.2,21.2,278.733,1.88,0.00516,lap
+Broad Domain PPO,spline,10012,1,100.0,19.15,19.15,290.924,2.138,0.0199,lap
+Hard Five Family PPO,spline,10012,0,40.172,,9.05,120.863,1.362,0.01127,off_track
+Evolved geometric,spline,10013,1,100.0,19.85,19.85,221.435,1.889,0.00489,lap
+Broad Domain PPO,spline,10013,0,14.201,,3.8,33.202,1.377,0.01648,off_track
+Hard Five Family PPO,spline,10013,1,100.0,16.95,16.95,238.523,1.903,0.01735,lap
+Evolved geometric,spline,10014,1,100.0,20.95,20.95,241.038,2.051,0.00664,lap
+Broad Domain PPO,spline,10014,0,16.948,,4.3,42.409,1.254,0.01867,off_track
+Hard Five Family PPO,spline,10014,1,100.0,18.25,18.25,258.818,1.793,0.01695,lap
+Evolved geometric,spline,10015,1,100.0,20.7,20.7,286.261,1.55,0.00393,lap
+Broad Domain PPO,spline,10015,1,100.0,18.2,18.2,289.972,2.306,0.02342,lap
+Hard Five Family PPO,spline,10015,0,75.381,,15.1,226.059,1.274,0.01209,off_track
+Evolved geometric,spline,10016,1,100.0,18.9,18.9,262.95,1.708,0.00384,lap
+Broad Domain PPO,spline,10016,1,100.0,16.3,16.3,264.117,2.514,0.01774,lap
+Hard Five Family PPO,spline,10016,1,100.0,19.0,19.0,280.731,1.383,0.01178,lap
+Evolved geometric,spline,10017,1,100.0,20.5,20.5,271.016,1.798,0.0052,lap
+Broad Domain PPO,spline,10017,0,74.023,,13.95,208.643,1.997,0.01524,off_track
+Hard Five Family PPO,spline,10017,1,100.0,19.8,19.8,291.601,1.557,0.01464,lap
+Evolved geometric,spline,10018,1,100.0,17.1,17.1,230.72,1.725,0.00529,lap
+Broad Domain PPO,spline,10018,1,100.0,15.9,15.9,238.169,1.967,0.01867,lap
+Hard Five Family PPO,spline,10018,0,51.679,,10.1,133.623,1.308,0.0114,off_track
+Evolved geometric,spline,10019,1,100.0,20.65,20.65,245.844,1.935,0.00515,lap
+Broad Domain PPO,spline,10019,0,28.155,,5.75,70.338,1.372,0.0222,off_track
+Hard Five Family PPO,spline,10019,1,100.0,17.45,17.45,259.512,1.677,0.01571,lap
+Evolved geometric,hard_spline,10000,1,100.0,20.8,20.8,251.524,1.856,0.00574,lap
+Broad Domain PPO,hard_spline,10000,0,14.544,,4.15,39.529,0.974,0.02024,off_track
+Hard Five Family PPO,hard_spline,10000,0,71.37,,13.8,192.107,2.076,0.01668,off_track
+Evolved geometric,hard_spline,10001,1,100.0,20.7,20.7,278.498,1.745,0.00549,lap
+Broad Domain PPO,hard_spline,10001,0,14.737,,4.3,42.409,0.953,0.02202,off_track
+Hard Five Family PPO,hard_spline,10001,0,69.086,,14.3,205.067,1.594,0.01375,off_track
+Evolved geometric,hard_spline,10002,1,100.0,19.4,19.4,241.25,1.874,0.00511,lap
+Broad Domain PPO,hard_spline,10002,0,82.11,,14.15,209.894,2.119,0.02218,off_track
+Hard Five Family PPO,hard_spline,10002,0,73.015,,13.35,191.815,1.161,0.01226,off_track
+Evolved geometric,hard_spline,10003,1,100.0,18.25,18.25,222.749,1.753,0.00466,lap
+Broad Domain PPO,hard_spline,10003,1,100.0,15.2,15.2,232.509,1.597,0.01351,lap
+Hard Five Family PPO,hard_spline,10003,1,100.0,16.75,16.75,239.857,1.41,0.0141,lap
+Evolved geometric,hard_spline,10004,1,100.0,19.75,19.75,227.25,1.936,0.00428,lap
+Broad Domain PPO,hard_spline,10004,1,100.0,16.9,16.9,238.884,2.452,0.01947,lap
+Hard Five Family PPO,hard_spline,10004,0,73.805,,13.1,180.419,1.429,0.01339,off_track
+Evolved geometric,hard_spline,10005,1,100.0,21.85,21.85,263.008,1.919,0.006,lap
+Broad Domain PPO,hard_spline,10005,0,48.914,,9.35,133.264,2.135,0.02193,off_track
+Hard Five Family PPO,hard_spline,10005,0,55.366,,11.25,158.134,1.356,0.01227,off_track
+Evolved geometric,hard_spline,10006,1,100.0,20.15,20.15,220.333,1.989,0.00659,lap
+Broad Domain PPO,hard_spline,10006,0,47.833,,9.55,116.215,0.811,0.02282,off_track
+Hard Five Family PPO,hard_spline,10006,0,73.888,,13.55,178.902,2.03,0.01785,off_track
+Evolved geometric,hard_spline,10007,1,100.0,20.05,20.05,246.269,1.925,0.00571,lap
+Broad Domain PPO,hard_spline,10007,0,98.509,,17.45,253.995,2.004,0.02167,off_track
+Hard Five Family PPO,hard_spline,10007,0,40.999,,8.65,107.642,2.109,0.01671,off_track
+Evolved geometric,hard_spline,10008,1,100.0,17.3,17.3,192.443,2.064,0.00553,lap
+Broad Domain PPO,hard_spline,10008,1,100.0,14.9,14.9,201.055,1.676,0.02424,lap
+Hard Five Family PPO,hard_spline,10008,1,100.0,16.45,16.45,214.749,1.937,0.01643,lap
+Evolved geometric,hard_spline,10009,1,100.0,22.6,22.6,276.127,1.834,0.00563,lap
+Broad Domain PPO,hard_spline,10009,0,13.118,,4.15,39.529,1.208,0.0247,off_track
+Hard Five Family PPO,hard_spline,10009,1,100.0,19.65,19.65,291.678,1.963,0.01787,lap
+Evolved geometric,hard_spline,10010,1,100.0,18.65,18.65,215.282,1.892,0.00477,lap
+Broad Domain PPO,hard_spline,10010,1,100.0,15.65,15.65,225.968,1.864,0.01978,lap
+Hard Five Family PPO,hard_spline,10010,1,100.0,17.0,17.0,234.267,1.833,0.01633,lap
+Evolved geometric,hard_spline,10011,1,100.0,21.65,21.65,235.592,1.956,0.00588,lap
+Broad Domain PPO,hard_spline,10011,0,82.439,,15.25,209.198,1.69,0.02509,off_track
+Hard Five Family PPO,hard_spline,10011,1,100.0,17.9,17.9,253.766,2.041,0.01877,lap
+Evolved geometric,hard_spline,10012,1,100.0,19.1,19.1,246.502,1.674,0.00463,lap
+Broad Domain PPO,hard_spline,10012,0,14.028,,4.05,37.665,1.058,0.01436,off_track
+Hard Five Family PPO,hard_spline,10012,0,73.204,,14.1,193.621,1.875,0.01536,off_track
+Evolved geometric,hard_spline,10013,1,100.0,21.35,21.35,245.368,1.808,0.00524,lap
+Broad Domain PPO,hard_spline,10013,1,100.0,17.85,17.85,260.951,2.334,0.02209,lap
+Hard Five Family PPO,hard_spline,10013,0,55.434,,11.2,147.922,1.684,0.01544,off_track
+Evolved geometric,hard_spline,10014,1,100.0,20.8,20.8,234.296,1.826,0.00559,lap
+Broad Domain PPO,hard_spline,10014,0,14.716,,4.05,37.665,1.16,0.01432,off_track
+Hard Five Family PPO,hard_spline,10014,0,89.456,,16.5,230.816,1.747,0.01459,off_track
+Evolved geometric,hard_spline,10015,1,100.0,19.2,19.2,236.382,1.625,0.00499,lap
+Broad Domain PPO,hard_spline,10015,0,42.744,,7.85,104.03,2.157,0.0146,off_track
+Hard Five Family PPO,hard_spline,10015,1,100.0,17.65,17.65,253.223,1.732,0.01603,lap
+Evolved geometric,hard_spline,10016,1,100.0,20.7,20.7,246.066,1.901,0.00519,lap
+Broad Domain PPO,hard_spline,10016,0,91.957,,16.2,237.828,2.315,0.02147,off_track
+Hard Five Family PPO,hard_spline,10016,0,56.342,,11.25,149.649,1.825,0.01665,off_track
+Evolved geometric,hard_spline,10017,1,100.0,19.75,19.75,234.632,1.99,0.00631,lap
+Broad Domain PPO,hard_spline,10017,0,68.166,,12.4,173.47,1.875,0.0212,off_track
+Hard Five Family PPO,hard_spline,10017,0,39.614,,8.05,105.796,1.616,0.01342,off_track
+Evolved geometric,hard_spline,10018,1,100.0,19.7,19.7,235.358,1.743,0.00435,lap
+Broad Domain PPO,hard_spline,10018,1,100.0,16.1,16.1,243.227,2.285,0.01604,lap
+Hard Five Family PPO,hard_spline,10018,1,100.0,17.4,17.4,253.299,1.584,0.01707,lap
+Evolved geometric,hard_spline,10019,1,100.0,21.65,21.65,215.249,2.035,0.00577,lap
+Broad Domain PPO,hard_spline,10019,0,81.872,,13.55,186.004,2.049,0.02679,off_track
+Hard Five Family PPO,hard_spline,10019,1,100.0,17.0,17.0,233.253,2.128,0.01999,lap

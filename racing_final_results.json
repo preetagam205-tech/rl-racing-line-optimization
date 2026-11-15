@@ -1,0 +1,80 @@
+{
+  "algorithm": "Evolutionary controllers, not PPO",
+  "maps": {
+    "ellipse": {
+      "generation": 8,
+      "best_progress_percent": 100.0,
+      "fastest_lap_seconds": 5.3549999999999995,
+      "genes": [
+        0.6179347470339559,
+        -0.03187780581236674,
+        0.42145673252658783,
+        32.0,
+        0.2596505649470109,
+        0.198341923632321
+      ],
+      "source": "Built-in demo",
+      "seed": 12
+    },
+    "wavy": {
+      "generation": 8,
+      "best_progress_percent": 100.0,
+      "fastest_lap_seconds": 7.515,
+      "genes": [
+        1.9040108365902615,
+        0.13013467533022802,
+        0.39695746388187814,
+        31.73347951653371,
+        0.1883714544785585,
+        0.2398955707200945
+      ],
+      "source": "PPO factory: make_random_wavy_track",
+      "seed": 1012
+    },
+    "complex": {
+      "generation": 8,
+      "best_progress_percent": 100.0,
+      "fastest_lap_seconds": 6.75,
+      "genes": [
+        1.9647964384450463,
+        0.07093574960149168,
+        0.38665767123527345,
+        32.0,
+        0.023600051446370212,
+        0.10742597000350437
+      ],
+      "source": "PPO factory: make_random_complex_track",
+      "seed": 2012
+    },
+    "spline": {
+      "generation": 8,
+      "best_progress_percent": 100.0,
+      "fastest_lap_seconds": 7.83,
+      "genes": [
+        0.8378281626459226,
+        -0.012055072516871237,
+        0.33181257983848567,
+        31.718356843800503,
+        0.05432594283714019,
+        0.17529455575588215
+      ],
+      "source": "PPO factory: make_random_spline_track",
+      "seed": 3012
+    },
+    "hard_spline": {
+      "generation": 8,
+      "best_progress_percent": 100.0,
+      "fastest_lap_seconds": 6.84,
+      "genes": [
+        2.7123849728120586,
+        0.7494981483615984,
+        0.5,
+        32.0,
+        0.07064843654792305,
+        0.26730985209260233
+      ],
+      "source": "PPO factory: make_random_hard_spline_track",
+      "seed": 4012
+    }
+  }
+}

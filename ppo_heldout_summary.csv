@@ -1,0 +1,16 @@
+model,family,trials,completion_rate_percent,mean_progress_percent,mean_lap_seconds,mean_steering_change,mean_abs_lateral_error
+broaddomain,ellipse,20,100,100.0,15.363,0.01459,2.018
+broaddomain,wavy,20,100,100.0,15.893,0.01937,1.907
+broaddomain,complex,20,100,100.0,15.81,0.02025,1.969
+broaddomain,spline,20,70.0,81.5,16.979,0.01932,1.992
+broaddomain,hard_spline,20,30.0,65.78,16.1,0.02043,1.736
+hardfivefamily,ellipse,20,100,100.0,16.905,0.01211,1.296
+hardfivefamily,wavy,20,85.0,94.22,17.015,0.01267,1.246
+hardfivefamily,complex,20,50.0,83.47,16.675,0.01351,1.338
+hardfivefamily,spline,20,55.0,80.38,18.568,0.0134,1.372
+hardfivefamily,hard_spline,20,40.0,78.58,17.475,0.01575,1.756
+fourfamily,ellipse,20,100,100.0,15.215,0.01476,2.254
+fourfamily,wavy,20,100,100.0,15.72,0.0177,2.28
+fourfamily,complex,20,55.0,87.16,15.514,0.01934,2.296
+fourfamily,spline,20,30.0,63.52,16.6,0.01861,2.136
+fourfamily,hard_spline,20,5.0,35.51,15.0,0.01747,1.824

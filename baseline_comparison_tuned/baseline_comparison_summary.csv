@@ -1,0 +1,16 @@
+model,family,runs,completion_rate_percent,mean_progress_percent,mean_successful_lap_seconds,mean_abs_lateral_error,mean_steering_change
+Centerline Pure Pursuit,ellipse,20,100,100.0,20.762,0.566,0.00423
+Centerline Pure Pursuit,wavy,20,100,100.0,20.317,0.512,0.00332
+Centerline Pure Pursuit,complex,20,100,100.0,23.17,0.652,0.00435
+Centerline Pure Pursuit,spline,20,100,100.0,28.66,0.622,0.00405
+Centerline Pure Pursuit,hard_spline,20,100,100.0,31.465,0.795,0.00528
+Broad Domain PPO,ellipse,20,100,100.0,15.363,2.018,0.01459
+Broad Domain PPO,wavy,20,100,100.0,15.893,1.907,0.01937
+Broad Domain PPO,complex,20,100,100.0,15.81,1.969,0.02025
+Broad Domain PPO,spline,20,70.0,81.5,16.979,1.992,0.01932
+Broad Domain PPO,hard_spline,20,30.0,65.78,16.1,1.736,0.02043
+Hard Five Family PPO,ellipse,20,100,100.0,16.905,1.296,0.01211
+Hard Five Family PPO,wavy,20,85.0,94.22,17.015,1.246,0.01267
+Hard Five Family PPO,complex,20,50.0,83.47,16.675,1.338,0.01351
+Hard Five Family PPO,spline,20,55.0,80.38,18.568,1.372,0.0134
+Hard Five Family PPO,hard_spline,20,40.0,78.58,17.475,1.756,0.01575

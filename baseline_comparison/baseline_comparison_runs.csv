@@ -1,0 +1,301 @@
+model,family,trial,completed,progress_percent,lap_seconds,elapsed_seconds,distance_driven,mean_speed,mean_abs_lateral_error,mean_steering_change,status
+Centerline Pure Pursuit,ellipse,10000,1,100.0,22.8,22.8,226.073,9.915,0.624,0.00477,lap
+Broad Domain PPO,ellipse,10000,1,100.0,15.75,15.75,223.425,14.186,1.898,0.01457,lap
+Hard Five Family PPO,ellipse,10000,1,100.0,17.2,17.2,236.259,13.736,1.38,0.01202,lap
+Centerline Pure Pursuit,ellipse,10001,1,100.0,19.7,19.7,177.433,9.007,0.68,0.00527,lap
+Broad Domain PPO,ellipse,10001,1,100.0,13.35,13.35,174.863,13.098,1.418,0.01668,lap
+Hard Five Family PPO,ellipse,10001,1,100.0,14.3,14.3,187.61,13.12,1.345,0.01395,lap
+Centerline Pure Pursuit,ellipse,10002,1,100.0,21.4,21.4,237.943,11.119,0.486,0.00345,lap
+Broad Domain PPO,ellipse,10002,1,100.0,15.85,15.85,232.528,14.671,2.276,0.01393,lap
+Hard Five Family PPO,ellipse,10002,1,100.0,17.65,17.65,248.262,14.066,1.243,0.01153,lap
+Centerline Pure Pursuit,ellipse,10003,1,100.0,24.35,24.35,246.888,10.139,0.608,0.00466,lap
+Broad Domain PPO,ellipse,10003,1,100.0,16.8,16.8,244.171,14.534,2.052,0.01408,lap
+Hard Five Family PPO,ellipse,10003,1,100.0,18.4,18.4,256.776,13.955,1.401,0.01142,lap
+Centerline Pure Pursuit,ellipse,10004,1,100.0,22.4,22.4,238.477,10.646,0.545,0.00401,lap
+Broad Domain PPO,ellipse,10004,1,100.0,16.1,16.1,234.325,14.554,2.113,0.01411,lap
+Hard Five Family PPO,ellipse,10004,1,100.0,17.8,17.8,248.742,13.974,1.302,0.01152,lap
+Centerline Pure Pursuit,ellipse,10005,1,100.0,16.55,16.55,190.805,11.529,0.29,0.00192,lap
+Broad Domain PPO,ellipse,10005,1,100.0,13.05,13.05,181.877,13.937,2.204,0.01454,lap
+Hard Five Family PPO,ellipse,10005,1,100.0,14.6,14.6,198.487,13.595,0.991,0.01241,lap
+Centerline Pure Pursuit,ellipse,10006,1,100.0,18.5,18.5,191.223,10.336,0.512,0.00372,lap
+Broad Domain PPO,ellipse,10006,1,100.0,13.6,13.6,186.1,13.684,1.886,0.01561,lap
+Hard Five Family PPO,ellipse,10006,1,100.0,14.95,14.95,201.507,13.479,1.215,0.01326,lap
+Centerline Pure Pursuit,ellipse,10007,1,100.0,17.7,17.7,183.413,10.362,0.48,0.00347,lap
+Broad Domain PPO,ellipse,10007,1,100.0,13.15,13.15,177.594,13.505,1.868,0.01546,lap
+Hard Five Family PPO,ellipse,10007,1,100.0,14.45,14.45,192.997,13.356,1.167,0.01368,lap
+Centerline Pure Pursuit,ellipse,10008,1,100.0,24.6,24.6,246.395,10.016,0.62,0.00481,lap
+Broad Domain PPO,ellipse,10008,1,100.0,16.8,16.8,243.847,14.515,2.026,0.0141,lap
+Hard Five Family PPO,ellipse,10008,1,100.0,18.4,18.4,256.344,13.932,1.42,0.01145,lap
+Centerline Pure Pursuit,ellipse,10009,1,100.0,20.1,20.1,209.965,10.446,0.539,0.00392,lap
+Broad Domain PPO,ellipse,10009,1,100.0,14.6,14.6,205.345,14.065,1.973,0.01499,lap
+Hard Five Family PPO,ellipse,10009,1,100.0,16.1,16.1,220.468,13.694,1.262,0.01228,lap
+Centerline Pure Pursuit,ellipse,10010,1,100.0,21.85,21.85,248.174,11.358,0.465,0.00326,lap
+Broad Domain PPO,ellipse,10010,1,100.0,16.25,16.25,241.94,14.889,2.384,0.0133,lap
+Hard Five Family PPO,ellipse,10010,1,100.0,18.15,18.15,257.771,14.202,1.233,0.01142,lap
+Centerline Pure Pursuit,ellipse,10011,1,100.0,24.8,24.8,256.445,10.341,0.588,0.00449,lap
+Broad Domain PPO,ellipse,10011,1,100.0,17.25,17.25,253.645,14.704,2.125,0.0136,lap
+Hard Five Family PPO,ellipse,10011,1,100.0,18.9,18.9,266.048,14.077,1.389,0.01113,lap
+Centerline Pure Pursuit,ellipse,10012,1,100.0,25.4,25.4,258.268,10.168,0.607,0.00473,lap
+Broad Domain PPO,ellipse,10012,1,100.0,17.45,17.45,256.134,14.678,2.103,0.01379,lap
+Hard Five Family PPO,ellipse,10012,1,100.0,19.1,19.1,268.449,14.055,1.424,0.01113,lap
+Centerline Pure Pursuit,ellipse,10013,1,100.0,20.5,20.5,217.178,10.594,0.53,0.00383,lap
+Broad Domain PPO,ellipse,10013,1,100.0,14.95,14.95,212.431,14.209,2.039,0.01458,lap
+Hard Five Family PPO,ellipse,10013,1,100.0,16.5,16.5,227.47,13.786,1.263,0.0121,lap
+Centerline Pure Pursuit,ellipse,10014,1,100.0,23.8,23.8,227.256,9.549,0.667,0.00525,lap
+Broad Domain PPO,ellipse,10014,1,100.0,15.95,15.95,225.292,14.125,1.842,0.01517,lap
+Hard Five Family PPO,ellipse,10014,1,100.0,17.35,17.35,237.359,13.681,1.456,0.01206,lap
+Centerline Pure Pursuit,ellipse,10015,1,100.0,18.75,18.75,168.246,8.973,0.657,0.00511,lap
+Broad Domain PPO,ellipse,10015,1,100.0,12.8,12.8,165.167,12.904,1.34,0.01715,lap
+Hard Five Family PPO,ellipse,10015,1,100.0,13.75,13.75,178.768,13.001,1.304,0.0143,lap
+Centerline Pure Pursuit,ellipse,10016,1,100.0,21.9,21.9,241.311,11.019,0.502,0.00358,lap
+Broad Domain PPO,ellipse,10016,1,100.0,16.05,16.05,235.851,14.695,2.258,0.01405,lap
+Hard Five Family PPO,ellipse,10016,1,100.0,17.85,17.85,251.196,14.073,1.261,0.01149,lap
+Centerline Pure Pursuit,ellipse,10017,1,100.0,24.05,24.05,238.179,9.903,0.63,0.00488,lap
+Broad Domain PPO,ellipse,10017,1,100.0,16.4,16.4,235.68,14.371,1.97,0.01432,lap
+Hard Five Family PPO,ellipse,10017,1,100.0,17.95,17.95,248.379,13.837,1.417,0.01173,lap
+Centerline Pure Pursuit,ellipse,10018,1,100.0,22.45,22.45,247.944,11.044,0.504,0.00361,lap
+Broad Domain PPO,ellipse,10018,1,100.0,16.4,16.4,242.611,14.793,2.283,0.01392,lap
+Hard Five Family PPO,ellipse,10018,1,100.0,18.25,18.25,257.852,14.129,1.273,0.01132,lap
+Centerline Pure Pursuit,ellipse,10019,1,100.0,19.35,19.35,219.603,11.349,0.427,0.00293,lap
+Broad Domain PPO,ellipse,10019,1,100.0,14.7,14.7,212.613,14.463,2.3,0.01381,lap
+Hard Five Family PPO,ellipse,10019,1,100.0,16.45,16.45,229.581,13.956,1.181,0.01209,lap
+Centerline Pure Pursuit,wavy,10000,1,100.0,17.75,17.75,197.478,11.126,0.332,0.00233,lap
+Broad Domain PPO,wavy,10000,1,100.0,13.5,13.5,189.76,14.056,2.277,0.01635,lap
+Hard Five Family PPO,wavy,10000,1,100.0,15.0,15.0,204.079,13.605,1.015,0.01084,lap
+Centerline Pure Pursuit,wavy,10001,1,100.0,21.1,21.1,242.413,11.489,0.586,0.0035,lap
+Broad Domain PPO,wavy,10001,1,100.0,16.9,16.9,241.715,14.303,1.775,0.01896,lap
+Hard Five Family PPO,wavy,10001,1,100.0,17.55,17.55,250.101,14.251,1.339,0.01457,lap
+Centerline Pure Pursuit,wavy,10002,1,100.0,20.6,20.6,204.925,9.948,0.687,0.00457,lap
+Broad Domain PPO,wavy,10002,1,100.0,15.0,15.0,204.549,13.637,1.603,0.02174,lap
+Hard Five Family PPO,wavy,10002,0,44.3,,7.7,96.35,12.513,1.451,0.0122,off_track
+Centerline Pure Pursuit,wavy,10003,1,100.0,22.35,22.35,248.213,11.106,0.591,0.00364,lap
+Broad Domain PPO,wavy,10003,1,100.0,17.4,17.4,249.972,14.366,1.819,0.0171,lap
+Hard Five Family PPO,wavy,10003,1,100.0,18.65,18.65,259.111,13.893,1.521,0.01265,lap
+Centerline Pure Pursuit,wavy,10004,1,100.0,20.0,20.0,236.731,11.837,0.435,0.00266,lap
+Broad Domain PPO,wavy,10004,1,100.0,15.85,15.85,233.107,14.707,2.018,0.0192,lap
+Hard Five Family PPO,wavy,10004,1,100.0,16.75,16.75,242.414,14.472,1.13,0.01287,lap
+Centerline Pure Pursuit,wavy,10005,1,100.0,18.65,18.65,212.821,11.411,0.425,0.00273,lap
+Broad Domain PPO,wavy,10005,1,100.0,14.7,14.7,208.166,14.161,1.961,0.02048,lap
+Hard Five Family PPO,wavy,10005,1,100.0,15.75,15.75,219.946,13.965,1.256,0.01332,lap
+Centerline Pure Pursuit,wavy,10006,1,100.0,20.5,20.5,199.12,9.713,0.714,0.00466,lap
+Broad Domain PPO,wavy,10006,1,100.0,14.95,14.95,199.01,13.312,1.412,0.02243,lap
+Hard Five Family PPO,wavy,10006,0,44.143,,7.65,94.036,12.292,1.591,0.01394,off_track
+Centerline Pure Pursuit,wavy,10007,1,100.0,22.45,22.45,210.524,9.377,0.756,0.00492,lap
+Broad Domain PPO,wavy,10007,1,100.0,16.45,16.45,215.048,13.073,1.267,0.02078,lap
+Hard Five Family PPO,wavy,10007,1,100.0,16.4,16.4,218.894,13.347,1.71,0.01661,lap
+Centerline Pure Pursuit,wavy,10008,1,100.0,18.0,18.0,204.229,11.346,0.317,0.0023,lap
+Broad Domain PPO,wavy,10008,1,100.0,13.85,13.85,200.17,14.453,1.952,0.01593,lap
+Hard Five Family PPO,wavy,10008,1,100.0,14.9,14.9,210.091,14.1,0.87,0.01123,lap
+Centerline Pure Pursuit,wavy,10009,1,100.0,19.05,19.05,241.656,12.685,0.284,0.00166,lap
+Broad Domain PPO,wavy,10009,1,100.0,15.85,15.85,233.487,14.731,2.424,0.0157,lap
+Hard Five Family PPO,wavy,10009,1,100.0,17.4,17.4,249.033,14.312,0.984,0.01037,lap
+Centerline Pure Pursuit,wavy,10010,1,100.0,19.5,19.5,237.26,12.167,0.352,0.00229,lap
+Broad Domain PPO,wavy,10010,1,100.0,15.6,15.6,231.031,14.81,2.344,0.01947,lap
+Hard Five Family PPO,wavy,10010,1,100.0,16.8,16.8,242.752,14.45,0.878,0.00979,lap
+Centerline Pure Pursuit,wavy,10011,1,100.0,21.3,21.3,268.631,12.612,0.437,0.00253,lap
+Broad Domain PPO,wavy,10011,1,100.0,17.45,17.45,265.96,15.241,2.244,0.01837,lap
+Hard Five Family PPO,wavy,10011,1,100.0,18.65,18.65,275.736,14.785,1.085,0.01149,lap
+Centerline Pure Pursuit,wavy,10012,1,100.0,19.15,19.15,200.741,10.483,0.479,0.00349,lap
+Broad Domain PPO,wavy,10012,1,100.0,13.95,13.95,196.453,14.083,1.961,0.01879,lap
+Hard Five Family PPO,wavy,10012,1,100.0,15.05,15.05,207.116,13.762,1.207,0.01229,lap
+Centerline Pure Pursuit,wavy,10013,1,100.0,21.75,21.75,213.557,9.819,0.754,0.00517,lap
+Broad Domain PPO,wavy,10013,1,100.0,16.25,16.25,214.563,13.204,1.386,0.02288,lap
+Hard Five Family PPO,wavy,10013,0,96.034,,16.45,215.241,13.085,1.404,0.01465,off_track
+Centerline Pure Pursuit,wavy,10014,1,100.0,19.65,19.65,211.841,10.781,0.513,0.00344,lap
+Broad Domain PPO,wavy,10014,1,100.0,15.6,15.6,211.425,13.553,1.709,0.02139,lap
+Hard Five Family PPO,wavy,10014,1,100.0,16.35,16.35,220.468,13.484,1.421,0.01273,lap
+Centerline Pure Pursuit,wavy,10015,1,100.0,21.5,21.5,250.822,11.666,0.51,0.0031,lap
+Broad Domain PPO,wavy,10015,1,100.0,17.75,17.75,251.965,14.195,1.724,0.01715,lap
+Hard Five Family PPO,wavy,10015,1,100.0,18.25,18.25,258.753,14.178,1.292,0.01236,lap
+Centerline Pure Pursuit,wavy,10016,1,100.0,21.2,21.2,249.012,11.746,0.508,0.00325,lap
+Broad Domain PPO,wavy,10016,1,100.0,16.7,16.7,244.65,14.65,2.135,0.02018,lap
+Hard Five Family PPO,wavy,10016,1,100.0,17.9,17.9,255.763,14.288,1.111,0.0123,lap
+Centerline Pure Pursuit,wavy,10017,1,100.0,20.65,20.65,240.784,11.66,0.476,0.00321,lap
+Broad Domain PPO,wavy,10017,1,100.0,15.2,15.2,232.119,15.271,2.22,0.02095,lap
+Hard Five Family PPO,wavy,10017,1,100.0,17.35,17.35,248.726,14.336,1.171,0.01207,lap
+Centerline Pure Pursuit,wavy,10018,1,100.0,20.7,20.7,244.03,11.789,0.525,0.00325,lap
+Broad Domain PPO,wavy,10018,1,100.0,16.45,16.45,240.948,14.647,2.059,0.01983,lap
+Hard Five Family PPO,wavy,10018,1,100.0,17.4,17.4,250.759,14.411,1.202,0.01426,lap
+Centerline Pure Pursuit,wavy,10019,1,100.0,22.2,22.2,257.854,11.615,0.551,0.00359,lap
+Broad Domain PPO,wavy,10019,1,100.0,18.45,18.45,259.74,14.078,1.842,0.01964,lap
+Hard Five Family PPO,wavy,10019,1,100.0,19.1,19.1,266.169,13.936,1.283,0.0128,lap
+Centerline Pure Pursuit,complex,10000,1,100.0,23.35,23.35,241.941,10.362,0.614,0.00412,lap
+Broad Domain PPO,complex,10000,1,100.0,16.3,16.3,239.52,14.694,2.021,0.02068,lap
+Hard Five Family PPO,complex,10000,0,45.809,,9.2,116.093,12.619,1.248,0.01217,off_track
+Centerline Pure Pursuit,complex,10001,1,100.0,23.1,23.1,237.624,10.287,0.668,0.00439,lap
+Broad Domain PPO,complex,10001,1,100.0,15.6,15.6,229.391,14.705,2.542,0.02225,lap
+Hard Five Family PPO,complex,10001,0,47.68,,9.3,118.557,12.748,0.707,0.0112,off_track
+Centerline Pure Pursuit,complex,10002,1,100.0,22.5,22.5,244.527,10.868,0.633,0.00465,lap
+Broad Domain PPO,complex,10002,1,100.0,16.45,16.45,239.633,14.567,1.961,0.02325,lap
+Hard Five Family PPO,complex,10002,0,95.88,,17.45,243.388,13.948,1.166,0.01251,off_track
+Centerline Pure Pursuit,complex,10003,1,100.0,24.8,24.8,227.6,9.177,0.722,0.00535,lap
+Broad Domain PPO,complex,10003,1,100.0,16.65,16.65,225.29,13.531,1.702,0.0244,lap
+Hard Five Family PPO,complex,10003,0,98.45,,17.15,231.134,13.477,1.472,0.01468,off_track
+Centerline Pure Pursuit,complex,10004,1,100.0,24.7,24.7,218.648,8.852,0.81,0.0054,lap
+Broad Domain PPO,complex,10004,1,100.0,15.6,15.6,217.568,13.947,1.983,0.02351,lap
+Hard Five Family PPO,complex,10004,1,100.0,16.05,16.05,223.872,13.948,1.814,0.01688,lap
+Centerline Pure Pursuit,complex,10005,1,100.0,20.85,20.85,215.248,10.324,0.56,0.00357,lap
+Broad Domain PPO,complex,10005,1,100.0,15.0,15.0,213.952,14.263,1.752,0.0164,lap
+Hard Five Family PPO,complex,10005,1,100.0,15.8,15.8,219.892,13.917,1.436,0.01345,lap
+Centerline Pure Pursuit,complex,10006,1,100.0,20.7,20.7,227.056,10.969,0.501,0.00323,lap
+Broad Domain PPO,complex,10006,1,100.0,16.45,16.45,225.98,13.737,1.797,0.01993,lap
+Hard Five Family PPO,complex,10006,1,100.0,16.95,16.95,234.307,13.823,1.468,0.01479,lap
+Centerline Pure Pursuit,complex,10007,1,100.0,24.65,24.65,248.874,10.096,0.717,0.00486,lap
+Broad Domain PPO,complex,10007,1,100.0,15.7,15.7,244.173,15.552,2.012,0.01504,lap
+Hard Five Family PPO,complex,10007,1,100.0,17.15,17.15,252.804,14.741,1.346,0.01279,lap
+Centerline Pure Pursuit,complex,10008,1,100.0,25.4,25.4,234.312,9.225,0.791,0.0053,lap
+Broad Domain PPO,complex,10008,1,100.0,16.25,16.25,230.827,14.205,2.158,0.02248,lap
+Hard Five Family PPO,complex,10008,0,38.717,,7.95,94.325,11.865,1.256,0.01502,off_track
+Centerline Pure Pursuit,complex,10009,1,100.0,26.15,26.15,236.802,9.056,0.737,0.00505,lap
+Broad Domain PPO,complex,10009,1,100.0,15.3,15.3,229.16,14.978,1.979,0.0224,lap
+Hard Five Family PPO,complex,10009,0,90.548,,16.1,222.748,13.835,1.386,0.01365,off_track
+Centerline Pure Pursuit,complex,10010,1,100.0,21.25,21.25,244.895,11.524,0.513,0.00301,lap
+Broad Domain PPO,complex,10010,1,100.0,16.05,16.05,239.143,14.9,2.421,0.01908,lap
+Hard Five Family PPO,complex,10010,1,100.0,17.4,17.4,251.021,14.426,1.34,0.01321,lap
+Centerline Pure Pursuit,complex,10011,1,100.0,25.95,25.95,218.236,8.41,0.819,0.00554,lap
+Broad Domain PPO,complex,10011,1,100.0,15.3,15.3,214.749,14.036,1.607,0.02438,lap
+Hard Five Family PPO,complex,10011,1,100.0,16.75,16.75,224.844,13.424,1.651,0.01596,lap
+Centerline Pure Pursuit,complex,10012,1,100.0,26.35,26.35,250.165,9.494,0.863,0.00566,lap
+Broad Domain PPO,complex,10012,1,100.0,17.6,17.6,251.683,14.3,1.823,0.01877,lap
+Hard Five Family PPO,complex,10012,0,46.525,,9.4,119.979,12.764,1.864,0.01487,off_track
+Centerline Pure Pursuit,complex,10013,1,100.0,22.8,22.8,234.189,10.271,0.568,0.00395,lap
+Broad Domain PPO,complex,10013,1,100.0,15.55,15.55,230.272,14.809,1.89,0.02004,lap
+Hard Five Family PPO,complex,10013,0,99.846,,16.7,240.081,14.376,1.096,0.01177,off_track
+Centerline Pure Pursuit,complex,10014,1,100.0,23.4,23.4,220.441,9.421,0.69,0.00517,lap
+Broad Domain PPO,complex,10014,1,100.0,15.1,15.1,216.071,14.309,1.39,0.02122,lap
+Hard Five Family PPO,complex,10014,0,55.267,,9.95,126.095,12.673,0.96,0.01201,off_track
+Centerline Pure Pursuit,complex,10015,1,100.0,22.75,22.75,244.548,10.749,0.633,0.00393,lap
+Broad Domain PPO,complex,10015,1,100.0,16.25,16.25,243.534,14.987,1.66,0.01993,lap
+Hard Five Family PPO,complex,10015,0,50.733,,10.1,128.998,12.772,1.42,0.01152,off_track
+Centerline Pure Pursuit,complex,10016,1,100.0,22.75,22.75,228.292,10.035,0.728,0.00457,lap
+Broad Domain PPO,complex,10016,1,100.0,15.35,15.35,224.506,14.626,2.008,0.02286,lap
+Hard Five Family PPO,complex,10016,1,100.0,16.95,16.95,235.222,13.877,1.59,0.01528,lap
+Centerline Pure Pursuit,complex,10017,1,100.0,19.85,19.85,207.749,10.466,0.502,0.00317,lap
+Broad Domain PPO,complex,10017,1,100.0,13.8,13.8,203.882,14.774,2.034,0.01534,lap
+Hard Five Family PPO,complex,10017,1,100.0,15.3,15.3,213.873,13.979,1.249,0.01324,lap
+Centerline Pure Pursuit,complex,10018,1,100.0,21.65,21.65,251.29,11.607,0.447,0.00287,lap
+Broad Domain PPO,complex,10018,1,100.0,16.0,16.0,242.569,15.161,2.665,0.02001,lap
+Hard Five Family PPO,complex,10018,1,100.0,17.6,17.6,256.533,14.576,1.052,0.01193,lap
+Centerline Pure Pursuit,complex,10019,1,100.0,21.25,21.25,237.984,11.199,0.506,0.00316,lap
+Broad Domain PPO,complex,10019,1,100.0,15.9,15.9,237.818,14.957,1.973,0.01299,lap
+Hard Five Family PPO,complex,10019,1,100.0,16.8,16.8,244.267,14.54,1.235,0.01325,lap
+Centerline Pure Pursuit,spline,10000,1,100.0,27.0,27.0,254.759,9.436,0.522,0.00362,lap
+Broad Domain PPO,spline,10000,1,100.0,16.55,16.55,247.932,14.981,1.838,0.02418,lap
+Hard Five Family PPO,spline,10000,0,72.579,,13.75,187.584,13.642,1.004,0.01253,off_track
+Centerline Pure Pursuit,spline,10001,1,100.0,30.25,30.25,238.031,7.869,0.781,0.00513,lap
+Broad Domain PPO,spline,10001,1,100.0,15.75,15.75,235.87,14.976,1.745,0.02108,lap
+Hard Five Family PPO,spline,10001,0,40.207,,7.95,101.169,12.726,1.617,0.01397,off_track
+Centerline Pure Pursuit,spline,10002,1,100.0,26.65,26.65,281.517,10.564,0.487,0.0031,lap
+Broad Domain PPO,spline,10002,1,100.0,18.45,18.45,280.041,15.178,2.21,0.02135,lap
+Hard Five Family PPO,spline,10002,1,100.0,19.4,19.4,284.35,14.657,0.87,0.01119,lap
+Centerline Pure Pursuit,spline,10003,1,100.0,31.1,31.1,256.456,8.246,0.771,0.00504,lap
+Broad Domain PPO,spline,10003,0,37.767,,6.85,91.9,13.416,1.591,0.02186,off_track
+Hard Five Family PPO,spline,10003,0,45.346,,9.15,116.48,12.73,1.97,0.01572,off_track
+Centerline Pure Pursuit,spline,10004,1,100.0,25.9,25.9,267.075,10.312,0.405,0.00272,lap
+Broad Domain PPO,spline,10004,1,100.0,17.45,17.45,262.216,15.027,2.128,0.01644,lap
+Hard Five Family PPO,spline,10004,1,100.0,18.6,18.6,271.944,14.621,1.098,0.01236,lap
+Centerline Pure Pursuit,spline,10005,1,100.0,29.4,29.4,247.219,8.409,0.666,0.0044,lap
+Broad Domain PPO,spline,10005,0,58.896,,10.55,144.327,13.68,1.857,0.01967,off_track
+Hard Five Family PPO,spline,10005,0,56.258,,10.6,142.935,13.484,1.219,0.01275,off_track
+Centerline Pure Pursuit,spline,10006,1,100.0,32.0,32.0,283.801,8.869,0.698,0.00447,lap
+Broad Domain PPO,spline,10006,1,100.0,18.2,18.2,281.666,15.476,1.835,0.02002,lap
+Hard Five Family PPO,spline,10006,1,100.0,20.1,20.1,288.77,14.367,1.442,0.01579,lap
+Centerline Pure Pursuit,spline,10007,1,100.0,27.4,27.4,276.496,10.091,0.494,0.00331,lap
+Broad Domain PPO,spline,10007,1,100.0,17.45,17.45,273.469,15.672,2.264,0.01486,lap
+Hard Five Family PPO,spline,10007,1,100.0,19.0,19.0,279.851,14.729,1.195,0.01262,lap
+Centerline Pure Pursuit,spline,10008,1,100.0,23.95,23.95,223.783,9.344,0.426,0.00278,lap
+Broad Domain PPO,spline,10008,1,100.0,15.3,15.3,217.399,14.209,2.253,0.01783,lap
+Hard Five Family PPO,spline,10008,1,100.0,16.7,16.7,232.196,13.904,1.422,0.01325,lap
+Centerline Pure Pursuit,spline,10009,1,100.0,25.7,25.7,269.108,10.471,0.417,0.0027,lap
+Broad Domain PPO,spline,10009,1,100.0,17.2,17.2,262.871,15.283,2.08,0.01492,lap
+Hard Five Family PPO,spline,10009,1,100.0,19.0,19.0,275.257,14.487,1.381,0.01272,lap
+Centerline Pure Pursuit,spline,10010,1,100.0,27.8,27.8,253.981,9.136,0.651,0.0042,lap
+Broad Domain PPO,spline,10010,1,100.0,15.5,15.5,243.774,15.727,2.712,0.02189,lap
+Hard Five Family PPO,spline,10010,0,54.691,,10.75,142.849,13.288,0.955,0.01301,off_track
+Centerline Pure Pursuit,spline,10011,1,100.0,26.05,26.05,252.738,9.702,0.489,0.00327,lap
+Broad Domain PPO,spline,10011,1,100.0,16.3,16.3,245.532,15.063,2.404,0.02003,lap
+Hard Five Family PPO,spline,10011,0,71.335,,13.3,185.581,13.953,1.003,0.01095,off_track
+Centerline Pure Pursuit,spline,10012,1,100.0,31.5,31.5,292.426,9.283,0.633,0.0042,lap
+Broad Domain PPO,spline,10012,1,100.0,19.15,19.15,290.924,15.192,2.138,0.0199,lap
+Hard Five Family PPO,spline,10012,0,40.172,,9.05,120.863,13.355,1.362,0.01127,off_track
+Centerline Pure Pursuit,spline,10013,1,100.0,30.7,30.7,233.545,7.607,0.825,0.00521,lap
+Broad Domain PPO,spline,10013,0,14.201,,3.8,33.202,8.737,1.377,0.01648,off_track
+Hard Five Family PPO,spline,10013,1,100.0,16.95,16.95,238.523,14.072,1.903,0.01735,lap
+Centerline Pure Pursuit,spline,10014,1,100.0,32.35,32.35,255.387,7.895,0.85,0.00555,lap
+Broad Domain PPO,spline,10014,0,16.948,,4.3,42.409,9.862,1.254,0.01867,off_track
+Hard Five Family PPO,spline,10014,1,100.0,18.25,18.25,258.818,14.182,1.793,0.01695,lap
+Centerline Pure Pursuit,spline,10015,1,100.0,29.7,29.7,296.291,9.976,0.596,0.00375,lap
+Broad Domain PPO,spline,10015,1,100.0,18.2,18.2,289.972,15.933,2.306,0.02342,lap
+Hard Five Family PPO,spline,10015,0,75.381,,15.1,226.059,14.971,1.274,0.01209,off_track
+Centerline Pure Pursuit,spline,10016,1,100.0,27.9,27.9,274.503,9.839,0.578,0.00383,lap
+Broad Domain PPO,spline,10016,1,100.0,16.3,16.3,264.117,16.204,2.514,0.01774,lap
+Hard Five Family PPO,spline,10016,1,100.0,19.0,19.0,280.731,14.775,1.383,0.01178,lap
+Centerline Pure Pursuit,spline,10017,1,100.0,31.0,31.0,284.955,9.192,0.693,0.00445,lap
+Broad Domain PPO,spline,10017,0,74.023,,13.95,208.643,14.957,1.997,0.01524,off_track
+Hard Five Family PPO,spline,10017,1,100.0,19.8,19.8,291.601,14.727,1.557,0.01464,lap
+Centerline Pure Pursuit,spline,10018,1,100.0,25.3,25.3,244.737,9.673,0.594,0.00371,lap
+Broad Domain PPO,spline,10018,1,100.0,15.9,15.9,238.169,14.979,1.967,0.01867,lap
+Hard Five Family PPO,spline,10018,0,51.679,,10.1,133.623,13.23,1.308,0.0114,off_track
+Centerline Pure Pursuit,spline,10019,1,100.0,32.45,32.45,258.833,7.976,0.841,0.00545,lap
+Broad Domain PPO,spline,10019,0,28.155,,5.75,70.338,12.233,1.372,0.0222,off_track
+Hard Five Family PPO,spline,10019,1,100.0,17.45,17.45,259.512,14.872,1.677,0.01571,lap
+Centerline Pure Pursuit,hard_spline,10000,1,100.0,32.6,32.6,264.95,8.127,0.815,0.00541,lap
+Broad Domain PPO,hard_spline,10000,0,14.544,,4.15,39.529,9.525,0.974,0.02024,off_track
+Hard Five Family PPO,hard_spline,10000,0,71.37,,13.8,192.107,13.921,2.076,0.01668,off_track
+Centerline Pure Pursuit,hard_spline,10001,1,100.0,31.75,31.75,290.038,9.135,0.751,0.00507,lap
+Broad Domain PPO,hard_spline,10001,0,14.737,,4.3,42.409,9.862,0.953,0.02202,off_track
+Hard Five Family PPO,hard_spline,10001,0,69.086,,14.3,205.067,14.34,1.594,0.01375,off_track
+Centerline Pure Pursuit,hard_spline,10002,1,100.0,29.55,29.55,253.558,8.581,0.745,0.00497,lap
+Broad Domain PPO,hard_spline,10002,0,82.11,,14.15,209.894,14.834,2.119,0.02218,off_track
+Hard Five Family PPO,hard_spline,10002,0,73.015,,13.35,191.815,14.368,1.161,0.01226,off_track
+Centerline Pure Pursuit,hard_spline,10003,1,100.0,28.4,28.4,234.256,8.248,0.723,0.00485,lap
+Broad Domain PPO,hard_spline,10003,1,100.0,15.2,15.2,232.509,15.297,1.597,0.01351,lap
+Hard Five Family PPO,hard_spline,10003,1,100.0,16.75,16.75,239.857,14.32,1.41,0.0141,lap
+Centerline Pure Pursuit,hard_spline,10004,1,100.0,30.3,30.3,241.317,7.964,0.738,0.00477,lap
+Broad Domain PPO,hard_spline,10004,1,100.0,16.9,16.9,238.884,14.135,2.452,0.01947,lap
+Hard Five Family PPO,hard_spline,10004,0,73.805,,13.1,180.419,13.772,1.429,0.01339,off_track
+Centerline Pure Pursuit,hard_spline,10005,1,100.0,33.95,33.95,275.886,8.126,0.865,0.00575,lap
+Broad Domain PPO,hard_spline,10005,0,48.914,,9.35,133.264,14.253,2.135,0.02193,off_track
+Hard Five Family PPO,hard_spline,10005,0,55.366,,11.25,158.134,14.056,1.356,0.01227,off_track
+Centerline Pure Pursuit,hard_spline,10006,1,100.0,31.45,31.45,235.608,7.491,0.842,0.00559,lap
+Broad Domain PPO,hard_spline,10006,0,47.833,,9.55,116.215,12.169,0.811,0.02282,off_track
+Hard Five Family PPO,hard_spline,10006,0,73.888,,13.55,178.902,13.203,2.03,0.01785,off_track
+Centerline Pure Pursuit,hard_spline,10007,1,100.0,30.95,30.95,260.557,8.419,0.78,0.00515,lap
+Broad Domain PPO,hard_spline,10007,0,98.509,,17.45,253.995,14.556,2.004,0.02167,off_track
+Hard Five Family PPO,hard_spline,10007,0,40.999,,8.65,107.642,12.444,2.109,0.01671,off_track
+Centerline Pure Pursuit,hard_spline,10008,1,100.0,27.1,27.1,206.483,7.619,0.785,0.00521,lap
+Broad Domain PPO,hard_spline,10008,1,100.0,14.9,14.9,201.055,13.494,1.676,0.02424,lap
+Hard Five Family PPO,hard_spline,10008,1,100.0,16.45,16.45,214.749,13.055,1.937,0.01643,lap
+Centerline Pure Pursuit,hard_spline,10009,1,100.0,35.05,35.05,288.103,8.22,0.895,0.00588,lap
+Broad Domain PPO,hard_spline,10009,0,13.118,,4.15,39.529,9.525,1.208,0.0247,off_track
+Hard Five Family PPO,hard_spline,10009,1,100.0,19.65,19.65,291.678,14.844,1.963,0.01787,lap
+Centerline Pure Pursuit,hard_spline,10010,1,100.0,29.1,29.1,228.618,7.856,0.702,0.00475,lap
+Broad Domain PPO,hard_spline,10010,1,100.0,15.65,15.65,225.968,14.439,1.864,0.01978,lap
+Hard Five Family PPO,hard_spline,10010,1,100.0,17.0,17.0,234.267,13.78,1.833,0.01633,lap
+Centerline Pure Pursuit,hard_spline,10011,1,100.0,33.65,33.65,249.677,7.42,0.865,0.00568,lap
+Broad Domain PPO,hard_spline,10011,0,82.439,,15.25,209.198,13.718,1.69,0.02509,off_track
+Hard Five Family PPO,hard_spline,10011,1,100.0,17.9,17.9,253.766,14.177,2.041,0.01877,lap
+Centerline Pure Pursuit,hard_spline,10012,1,100.0,28.75,28.75,259.565,9.028,0.628,0.00423,lap
+Broad Domain PPO,hard_spline,10012,0,14.028,,4.05,37.665,9.3,1.058,0.01436,off_track
+Hard Five Family PPO,hard_spline,10012,0,73.204,,14.1,193.621,13.732,1.875,0.01536,off_track
+Centerline Pure Pursuit,hard_spline,10013,1,100.0,33.65,33.65,259.086,7.699,0.868,0.00567,lap
+Broad Domain PPO,hard_spline,10013,1,100.0,17.85,17.85,260.951,14.619,2.334,0.02209,lap
+Hard Five Family PPO,hard_spline,10013,0,55.434,,11.2,147.922,13.207,1.684,0.01544,off_track
+Centerline Pure Pursuit,hard_spline,10014,1,100.0,33.35,33.35,247.145,7.411,0.859,0.0057,lap
+Broad Domain PPO,hard_spline,10014,0,14.716,,4.05,37.665,9.3,1.16,0.01432,off_track
+Hard Five Family PPO,hard_spline,10014,0,89.456,,16.5,230.816,13.989,1.747,0.01459,off_track
+Centerline Pure Pursuit,hard_spline,10015,1,100.0,30.2,30.2,248.337,8.223,0.733,0.00493,lap
+Broad Domain PPO,hard_spline,10015,0,42.744,,7.85,104.03,13.252,2.157,0.0146,off_track
+Hard Five Family PPO,hard_spline,10015,1,100.0,17.65,17.65,253.223,14.347,1.732,0.01603,lap
+Centerline Pure Pursuit,hard_spline,10016,1,100.0,32.45,32.45,259.511,7.997,0.804,0.0053,lap
+Broad Domain PPO,hard_spline,10016,0,91.957,,16.2,237.828,14.681,2.315,0.02147,off_track
+Hard Five Family PPO,hard_spline,10016,0,56.342,,11.25,149.649,13.302,1.825,0.01665,off_track
+Centerline Pure Pursuit,hard_spline,10017,1,100.0,32.2,32.2,252.004,7.826,0.819,0.0055,lap
+Broad Domain PPO,hard_spline,10017,0,68.166,,12.4,173.47,13.99,1.875,0.0212,off_track
+Hard Five Family PPO,hard_spline,10017,0,39.614,,8.05,105.796,13.142,1.616,0.01342,off_track
+Centerline Pure Pursuit,hard_spline,10018,1,100.0,30.75,30.75,247.96,8.064,0.71,0.00469,lap
+Broad Domain PPO,hard_spline,10018,1,100.0,16.1,16.1,243.227,15.107,2.285,0.01604,lap
+Hard Five Family PPO,hard_spline,10018,1,100.0,17.4,17.4,253.299,14.557,1.584,0.01707,lap
+Centerline Pure Pursuit,hard_spline,10019,1,100.0,34.8,34.8,229.036,6.581,0.96,0.00632,lap
+Broad Domain PPO,hard_spline,10019,0,81.872,,13.55,186.004,13.727,2.049,0.02679,off_track
+Hard Five Family PPO,hard_spline,10019,1,100.0,17.0,17.0,233.253,13.721,2.128,0.01999,lap

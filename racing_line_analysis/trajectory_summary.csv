@@ -1,0 +1,11 @@
+model,family,runs,completion_rate_percent,mean_progress_percent,mean_successful_lap_seconds,mean_abs_lateral_error,mean_abs_steering_change
+Broad Domain,ellipse,20,100.0,100.0,15.362,2.018,0.01459
+Broad Domain,wavy,20,100.0,100.0,15.892,1.907,0.01937
+Broad Domain,complex,20,100.0,100.0,15.81,1.969,0.02025
+Broad Domain,spline,20,70.0,81.5,16.979,1.992,0.01932
+Broad Domain,hard_spline,20,30.0,65.78,16.1,1.736,0.02043
+Hard Five Family,ellipse,20,100.0,100.0,16.905,1.296,0.01211
+Hard Five Family,wavy,20,85.0,94.22,17.015,1.246,0.01267
+Hard Five Family,complex,20,50.0,83.47,16.675,1.338,0.01351
+Hard Five Family,spline,20,55.0,80.38,18.568,1.372,0.0134
+Hard Five Family,hard_spline,20,40.0,78.58,17.475,1.757,0.01575

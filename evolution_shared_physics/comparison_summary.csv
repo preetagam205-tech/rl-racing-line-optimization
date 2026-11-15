@@ -1,0 +1,16 @@
+model,family,runs,completion_rate_percent,mean_progress_percent,mean_successful_lap_seconds,mean_abs_lateral_error,mean_steering_change
+Evolved geometric,ellipse,20,35.0,74.99,15.429,1.57,0.00886
+Evolved geometric,wavy,20,60.0,85.89,15.188,1.932,0.00464
+Evolved geometric,complex,20,90.0,95.3,16.344,1.868,0.00477
+Evolved geometric,spline,20,100,100.0,19.238,1.803,0.00444
+Evolved geometric,hard_spline,20,100,100.0,20.17,1.867,0.00537
+Broad Domain PPO,ellipse,20,100,100.0,15.363,2.018,0.01459
+Broad Domain PPO,wavy,20,100,100.0,15.893,1.907,0.01937
+Broad Domain PPO,complex,20,100,100.0,15.81,1.969,0.02025
+Broad Domain PPO,spline,20,70.0,81.5,16.979,1.992,0.01932
+Broad Domain PPO,hard_spline,20,30.0,65.78,16.1,1.736,0.02043
+Hard Five Family PPO,ellipse,20,100,100.0,16.905,1.296,0.01211
+Hard Five Family PPO,wavy,20,85.0,94.22,17.015,1.246,0.01267
+Hard Five Family PPO,complex,20,50.0,83.47,16.675,1.338,0.01351
+Hard Five Family PPO,spline,20,55.0,80.38,18.568,1.372,0.0134
+Hard Five Family PPO,hard_spline,20,40.0,78.58,17.475,1.756,0.01575

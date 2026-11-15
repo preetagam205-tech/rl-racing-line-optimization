@@ -1,0 +1,7 @@
+Experiment,Main change,Success rate (%),Average successful lap time (s)
+Long lookahead,H10-H60 observation,61.11,15.98
+Linear lap-time reward,Edge penalty + linear terminal reward,100.0,16.83
+Fast progress reward,Added local speed-progress bonus,36.11,16.89
+Nonlinear lap-time reward,Edge penalty + 300*efficiency^4,100.0,16.43
+Edge penalty only,No lap-time efficiency bonus,100.0,17.09
+95% edge threshold,Weaker edge constraint + nonlinear reward,100.0,16.93

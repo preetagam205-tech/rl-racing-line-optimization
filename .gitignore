@@ -1,34 +1,34 @@
-# Python
-__pycache__/
-*.py[cod]
+# Environments, Python caches and editor files
 .venv/
 venv/
+env/
+__pycache__/
+*.py[cod]
 .pytest_cache/
 .mypy_cache/
-.ipynb_checkpoints/
-.DS_Store
+.ruff_cache/
+*.egg-info/
+build/
+dist/
 .idea/
 .vscode/
+.DS_Store
+Thumbs.db
+
+# Credentials and local configuration
 .env
 .env.*
+!.env.example
+*.pem
+*.key
 
-# Model weights and large training artifacts
-models/
-*.pt
-*.pth
+# New training output. Published data/checkpoints are intentional.
+experiments/
 logs/
+runs/
 tensorboard/
-checkpoints/
-racing_checkpoints/
-
-# Generated results (publish curated samples explicitly)
-outputs/
-racing_line_analysis/
-baseline_comparison/
-baseline_comparison_tuned/
-evolution_shared_physics/
-*.mov
-*.avi
-
-# Add only curated, compressed videos intentionally
-*.mp4
+*.log
+*.tmp
+*.bak
+.coverage
+htmlcov/

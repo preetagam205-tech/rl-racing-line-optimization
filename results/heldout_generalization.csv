@@ -1,0 +1,5 @@
+Model,Training / observation change,Observation dimensions,Held-out success rate (%),Average successful lap time (s)
+Broad-domain,Ellipse + wavy + complex,10,2.78,16.6
+Four-family,+ regular spline,10,0.0,
+Hard five-family,+ targeted hard spline,10,25.0,18.31
+Curvature observation,Hard five-family + six curvature inputs,16,5.56,18.28

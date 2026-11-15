@@ -1,0 +1,220 @@
+{
+  "description": "Fresh deterministic RacingEnv rollouts; no training or fabricated trajectories",
+  "benchmark_trial": 10000,
+  "start_index": 0,
+  "dt_seconds": 0.05,
+  "columns": [
+    "time_seconds",
+    "x",
+    "y",
+    "heading_radians",
+    "speed",
+    "maximum_progress_percent"
+  ],
+  "models": {
+    "0": "Broad Domain PPO",
+    "1": "Centerline Pure Pursuit",
+    "2": "Evolved geometric"
+  },
+  "input_sha256": {
+    "src/racing_env.py": "0839bc018ce3d9c0f6426c944e7b71abb5344142afc6a780df66f4a58afaf355",
+    "src/simulator.py": "29947394c902f90f43446df61659544b5d3890fb84bb8b7566d80e8d556f507f",
+    "src/vehicle.py": "9c0b5ecdd06f1ee7c7131ba0c249c2b2c9a89038a2bf66a9debbbd9f7c4a41cb",
+    "src/track_geometry.py": "e413dc777b35af5d4146a7d2210f14c5bc3eddaa2845ecf4bc3d6983cb94ca78",
+    "src/track_factory.py": "c75f103c5dce909bd68ce36a98b5d8f24b3707da2daed6fe2af16fc0d8049a25",
+    "benchmark_ppo.py": "57a3559b794893da8c9c4002f1693d9e88238a0cebe507f695a3eb7db386bb28",
+    "benchmark_centerline_tuned.py": "25c642dbc8f475e106a003892883b47448cb24872a606e72b18f66bf916f1945",
+    "evolve_shared_physics.py": "6cd1d03b8ff19faaa0f5a2ce38e6e074b045c743d07d088dc0a79d67c0b4e272",
+    "ppo_learning_replay.py": "64539a0687229ad4dddd51c0cc4ead1053527dcc19e8739838336c56ff2e4576",
+    "models/ppo_broaddomain_stage1.zip": "b9e3ccc765869d893ac80c63442231a634ba35de8be119e24e2d369fe9427570",
+    "evolution_shared_physics/best_controller.json": "c4b8e0a095df631fbb626413aded51a34329702ddcb7d5d5e5502bf416600dcb",
+    "models/visual_training/ppo_visual_000000.zip": "efe9780daaf7205dbf87ea162ab12d52a1e78d50a4611318f6fa0045d618d342",
+    "models/visual_training/ppo_visual_025000.zip": "640ec217678e32b85f39e1fe75188548dcccbd201fca47475a19d06b6bd14c50",
+    "models/visual_training/ppo_visual_050000.zip": "45b685a59603135563ba4261b2a72e5cdd823fb36ba9cbdfb50d91cdde025f32",
+    "models/visual_training/ppo_visual_100000.zip": "628edc30990ab6d3c1c459a51d2dd6417aeb8700b06b28af68f2a2ca0d1d8220",
+    "models/visual_training/ppo_visual_250000.zip": "5de5a0fd5f16005627ecdf00da9897c87547149942418727c2945c6bd013c084",
+    "models/visual_training/ppo_visual_500000.zip": "66cc5a36af6a64a5144428f5ecf2cca7f87c5c5dd2d8eab1258cd6c6dde1136c"
+  },
+  "episodes": {
+    "ellipse_0": {
+      "status": "lap complete",
+      "completed": true,
+      "progress_percent": 100.0,
+      "elapsed_seconds": 15.750000000000089,
+      "lap_seconds": 15.750000000000089,
+      "reset_seed": 12345
+    },
+    "ellipse_1": {
+      "status": "lap complete",
+      "completed": true,
+      "progress_percent": 100.0,
+      "elapsed_seconds": 21.900000000000176,
+      "lap_seconds": 21.900000000000176,
+      "reset_seed": 12345
+    },
+    "ellipse_2": {
+      "status": "off track",
+      "completed": false,
+      "progress_percent": 60.84884748349404,
+      "elapsed_seconds": 10.20000000000001,
+      "lap_seconds": null,
+      "reset_seed": 12345
+    },
+    "wavy_0": {
+      "status": "lap complete",
+      "completed": true,
+      "progress_percent": 100.0,
+      "elapsed_seconds": 13.500000000000057,
+      "lap_seconds": 13.500000000000057,
+      "reset_seed": 12345
+    },
+    "wavy_1": {
+      "status": "lap complete",
+      "completed": true,
+      "progress_percent": 100.0,
+      "elapsed_seconds": 17.700000000000117,
+      "lap_seconds": 17.700000000000117,
+      "reset_seed": 12345
+    },
+    "wavy_2": {
+      "status": "off track",
+      "completed": false,
+      "progress_percent": 71.43392611397353,
+      "elapsed_seconds": 10.000000000000007,
+      "lap_seconds": null,
+      "reset_seed": 12345
+    },
+    "complex_0": {
+      "status": "lap complete",
+      "completed": true,
+      "progress_percent": 100.0,
+      "elapsed_seconds": 16.300000000000097,
+      "lap_seconds": 16.300000000000097,
+      "reset_seed": 12345
+    },
+    "complex_1": {
+      "status": "lap complete",
+      "completed": true,
+      "progress_percent": 100.0,
+      "elapsed_seconds": 23.100000000000193,
+      "lap_seconds": 23.100000000000193,
+      "reset_seed": 12345
+    },
+    "complex_2": {
+      "status": "lap complete",
+      "completed": true,
+      "progress_percent": 100.0,
+      "elapsed_seconds": 16.5500000000001,
+      "lap_seconds": 16.5500000000001,
+      "reset_seed": 12345
+    },
+    "spline_0": {
+      "status": "lap complete",
+      "completed": true,
+      "progress_percent": 100.0,
+      "elapsed_seconds": 16.5500000000001,
+      "lap_seconds": 16.5500000000001,
+      "reset_seed": 12345
+    },
+    "spline_1": {
+      "status": "lap complete",
+      "completed": true,
+      "progress_percent": 100.0,
+      "elapsed_seconds": 26.950000000000248,
+      "lap_seconds": 26.950000000000248,
+      "reset_seed": 12345
+    },
+    "spline_2": {
+      "status": "lap complete",
+      "completed": true,
+      "progress_percent": 100.0,
+      "elapsed_seconds": 17.90000000000012,
+      "lap_seconds": 17.90000000000012,
+      "reset_seed": 12345
+    },
+    "hard_spline_0": {
+      "status": "off track",
+      "completed": false,
+      "progress_percent": 14.543692491852237,
+      "elapsed_seconds": 4.149999999999993,
+      "lap_seconds": null,
+      "reset_seed": 12345
+    },
+    "hard_spline_1": {
+      "status": "lap complete",
+      "completed": true,
+      "progress_percent": 100.0,
+      "elapsed_seconds": 32.600000000000286,
+      "lap_seconds": 32.600000000000286,
+      "reset_seed": 12345
+    },
+    "hard_spline_2": {
+      "status": "lap complete",
+      "completed": true,
+      "progress_percent": 100.0,
+      "elapsed_seconds": 20.80000000000016,
+      "lap_seconds": 20.80000000000016,
+      "reset_seed": 12345
+    },
+    "learning_0": {
+      "status": "time limit",
+      "completed": false,
+      "progress_percent": 0.00640169230128621,
+      "elapsed_seconds": 60.049999999998725,
+      "lap_seconds": null,
+      "reset_seed": 20261115,
+      "nominal_checkpoint_steps": 0,
+      "actual_training_timesteps": 0
+    },
+    "learning_25000": {
+      "status": "off track",
+      "completed": false,
+      "progress_percent": 18.604473405768605,
+      "elapsed_seconds": 4.549999999999992,
+      "lap_seconds": null,
+      "reset_seed": 20261115,
+      "nominal_checkpoint_steps": 25000,
+      "actual_training_timesteps": 26624
+    },
+    "learning_50000": {
+      "status": "off track",
+      "completed": false,
+      "progress_percent": 18.471880893594335,
+      "elapsed_seconds": 4.399999999999992,
+      "lap_seconds": null,
+      "reset_seed": 20261115,
+      "nominal_checkpoint_steps": 50000,
+      "actual_training_timesteps": 53248
+    },
+    "learning_100000": {
+      "status": "off track",
+      "completed": false,
+      "progress_percent": 52.917188867561535,
+      "elapsed_seconds": 9.099999999999994,
+      "lap_seconds": null,
+      "reset_seed": 20261115,
+      "nominal_checkpoint_steps": 100000,
+      "actual_training_timesteps": 104448
+    },
+    "learning_250000": {
+      "status": "lap complete",
+      "completed": true,
+      "progress_percent": 100.0,
+      "elapsed_seconds": 13.850000000000062,
+      "lap_seconds": 13.850000000000062,
+      "reset_seed": 20261115,
+      "nominal_checkpoint_steps": 250000,
+      "actual_training_timesteps": 256000
+    },
+    "learning_500000": {
+      "status": "lap complete",
+      "completed": true,
+      "progress_percent": 100.0,
+      "elapsed_seconds": 13.150000000000052,
+      "lap_seconds": 13.150000000000052,
+      "reset_seed": 20261115,
+      "nominal_checkpoint_steps": 500000,
+      "actual_training_timesteps": 507904
+    }
+  }
+}
